@@ -40,7 +40,7 @@ function NavBar() {
             <span className="navbar-toggler-icon" ></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav>
+          <Nav className="ms-auto">
             <Nav.Link href="/" className="navbar-link">Home</Nav.Link>
             <Nav.Link href="/achievements" className="navbar-link">Achievements</Nav.Link>
             <Nav.Link href="/aboutUs" className="navbar-link">About Us</Nav.Link>
