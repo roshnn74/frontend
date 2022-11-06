@@ -85,9 +85,10 @@
   nav.navbar {
     padding: 18px 0;
     position: fixed;
-    width: 90%;
+    width: 100%;
+    /* width: 90%;
     top: 5%;
-    left: 5%;
+    left: 5%; */
     z-index: 9999;
     transition:  0.32s ease-in-out;
     background-color: #FFEA00;
@@ -370,7 +371,7 @@
   }
 }
 
-.exercise-card {
+  .exercise-card {
     background: linear-gradient(90.21deg, #e0e30f -5.91%, #f4ec06 111.58%);
     border-top: 4px solid #fff;
     border-bottom-left-radius: 20px;
@@ -420,7 +421,6 @@
     font-weight: 700;
     font-size: 50px;
   }
-
 
   /* alumni */
 
