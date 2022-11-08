@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Teams from '../components/Teams';
 
 const Community = () => {
   return (
-    <div>Community</div>
+    <Teams />
   )
 }
 
-export default Community
+export default Community;
