@@ -1,297 +1,15 @@
 import React from 'react';
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+
 import MemberCard from "./MemberCard";
-import Img1 from "../assets/img/ishita.webp";
-import Img2 from "../assets/img/member.jfif";
-import Img3 from "../assets/img/gm.webp";
+import Startup from "./Startup";
+import { genManagers, designTeamMembers, prTeamMembers, eccTeamMembers, sfTeamMembers, techTeamMembers, iTeamMembers } from '../constants';
 import 'animate.css';
 
 const Teams = () => { 
-  const genManagers = [
-    {
-      title: "Lakshaya Priya",
-      description: "General Manager - Operations",
-      imgUrl: Img3,
-    },
-    {
-      title: "Venkatesh Thota",
-      description: "General Manager - Executive",
-      imgUrl: Img3,
-    },
-    {
-      title: "Shantosh Cumarasurier",
-      description: "General Manager - Innovations",
-      imgUrl: Img3,
-    },
-  ];
-
-  const designTeamMembers = [
-    {
-      title: "Shriyadita Nath",
-      description: "Team Lead",
-      imgUrl: Img2,
-    },
-    {
-      title: "Chahat",
-      description: "Team Lead",
-      imgUrl: Img2,
-    },
-    {
-      title: "TNA",
-      description: "Loser",
-      imgUrl: Img2,
-    },
-    {
-      title: "Ashwin S Luke",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Leonard Panging",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Tejas Pavan Makode",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Tanu Priya",
-      description: "Member",
-      imgUrl: Img2,
-    },
-  ];
-
-  const prTeamMembers = [
-    {
-      title: "Chava Pavan",
-      description: "Team Lead",
-      imgUrl: Img2,
-    },
-    {
-      title: "Tanzeela Inam",
-      description: "Team Lead",
-      imgUrl: Img2,
-    },
-    {
-      title: "Laxmi Priya Paila",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Siddharth S",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Afrah Aleem",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "MVS Rohith",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Manish Srivastava",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Linesh Malkam",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Yasir",
-      description: "Member",
-      imgUrl: Img2,
-    },
-  ];
-
-  const eccTeamMembers = [
-    {
-      title: "Siddharth Katiyar",
-      description: "Team Lead",
-      imgUrl: Img2,
-    },
-    {
-      title: "Jaahnavi Guntupalli",
-      description: "Team Lead",
-      imgUrl: Img2,
-    },
-    {
-      title: "M Keerthi",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Yagna Satwik",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Srijana Barua",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Kishuk Yadav",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Aditi Babu",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Abhay Puligadda",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Shaik Fardin",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Burra Tarun Goud",
-      description: "Member",
-      imgUrl: Img2,
-    },
-  ];
-
-  const sfTeamMembers = [
-    {
-      title: "Muralidhar Vedantam",
-      description: "Team Lead",
-      imgUrl: Img2,
-    },
-    {
-      title: "Lakshya Jalan",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Jatan Trivedi",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Lakshya Tiwari",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Srijana Barua",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Rushikesh Gupte",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Vaidehi Kailas",
-      description: "Member",
-      imgUrl: Img2,
-    },
-  ];
-
-  const techTeamMembers = [
-    {
-      title: "Ishita Gupta",
-      description: "Team Lead",
-      imgUrl: Img1,
-    },
-    {
-      title: "Roshan Kuriakose",
-      description: "Papi",
-      imgUrl: Img2,
-    },
-    {
-      title: "Rithik Marudappa",
-      description: "Brain damage",
-      imgUrl: Img2,
-    },
-    {
-      title: "Manav Bhadoria",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Adarsh Rao",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Vamsi Pranav Palepu",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Ankan Sen",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Astitva Verma",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Abhijit Gaikwad",
-      description: "Member",
-      imgUrl: Img2,
-    },
-  ];
-
-  const iTeamMembers = [
-    {
-      title: "Saurabh Shukla",
-      description: "Team Lead",
-      imgUrl: Img2,
-    },
-    {
-      title: "Kasshish Mehta",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Akshat Rai Laddha",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Gautam Prakash",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Daksh Deep",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Greata Chakravarty",
-      description: "Member",
-      imgUrl: Img2,
-    },
-    {
-      title: "Abdul Majid Khan",
-      description: "Member",
-      imgUrl: Img2,
-    },
-  ];
-
   return (
     <section className="project" id="teams">
       <Container>
-        <Row ></Row>
         <Row mt={3}>
           <Col size={12}>
               <div>
@@ -394,7 +112,7 @@ const Teams = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <Tab.Container id="projects-tabs" defaultActiveKey="third-first"> 
-                      <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                      <Nav variant="pills" className="nav-pills-third mb-5 justify-content-center align-items-center" id="pills-tab">
                         <Nav.Item>
                             <Nav.Link eventKey="third-first">Startup Facilities</Nav.Link>
                         </Nav.Item>
@@ -460,6 +178,9 @@ const Teams = () => {
           </Col>
         </Row>
       </Container>
+      <h2 className="animate__animated animate__zoomInDown">Our Startups</h2>
+      <p className="animate__animated animate__zoomInDown">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>     
+      <Startup />
     </section>
   )
 }
