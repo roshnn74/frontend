@@ -776,14 +776,12 @@
   .img-slider .slide{
     z-index: 1;
     position: absolute;
-    width: 100%;
-    clip-path: circle(0% at 0 50%);
+    display: none;
   }
   
   .img-slider .slide.active-slider{
-    clip-path: circle(150% at 0 50%);
-    transition: 1s;
-    transition-property: clip-path;
+    display: inline;
+    transition: display 1s linear;
   }
   
   .img-slider .slide img{
@@ -826,15 +824,18 @@
   
   .img-slider .navigation .btn-slider{
     background: rgba(255, 255, 255, 0.5);
-    width: 12px;
-    height: 12px;
-    margin: 10px;
+    width: 8px;
+    height: 8px;
+    margin: 15px;
     border-radius: 50%;
     cursor: pointer;
   }
   
   .img-slider .navigation .btn-slider.active-slider{
     background: #2696E9;
+    width: 12px;
+    height: 12px;
+    margin: 12px;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
   }
   

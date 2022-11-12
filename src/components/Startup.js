@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import 'animate.css';
 
 import Img1 from "../assets/img/ophyellowai.png";
 import Img2 from "../assets/img/ophlysto.png";
@@ -10,7 +11,7 @@ const Startup = () => {
       useEffect(() => {
         var slides = document.querySelectorAll('.slide');
         var btns = document.querySelectorAll('.btn-slider');
-        let currentSlide = 1;
+        var currentSlide = 1;
     
         // Javascript for image slider manual navigation
         var manualNav = function(manual){
@@ -24,20 +25,19 @@ const Startup = () => {
     
           slides[manual].classList.add('active-slider');
           btns[manual].classList.add('active-slider');
+          currentSlide = manual;
         }
-    
+
         btns.forEach((btn, i) => {
           btn.addEventListener("click", () => {
             manualNav(i);
-            currentSlide = i;
           });
         });
-    
+
         // Javascript for image slider autoplay navigation
         var repeat = function(activeClass){
           let active = document.getElementsByClassName('active-slider');
           let i = 1;
-    
           var repeater = () => {
             setTimeout(function(){
                 [...active].forEach((activeSlide) => {
@@ -57,7 +57,7 @@ const Startup = () => {
                 repeater();
             }, 5000);
           }
-          repeater();
+          repeater(); 
         }
         repeat();
       },[]);
@@ -65,19 +65,19 @@ const Startup = () => {
   return (
     <section className="startup">
       <div className="img-slider">
-        <div className="slide active-slider">
+        <div className="slide active-slider animate__animated animate__slideInRight">
           <img src={Img1} alt="Yellow AI" />
         </div>
-        <div class="slide">
+        <div class="slide animate__animated animate__slideInRight">
           <img src={Img2} alt="Lysto" />
         </div>
-        <div class="slide">
+        <div class="slide animate__animated animate__slideInRight">
           <img src={Img3} alt="Skylark" />
         </div>
-        <div class="slide">
+        <div class="slide animate__animated animate__slideInRight">
           <img src={Img4} alt="AlmaBase" />
         </div>
-        <div class="slide">
+        <div class="slide animate__animated animate__slideInRight">
           <img src={Img5} alt="BugClaim" />
         </div>
         <div class="navigation">
