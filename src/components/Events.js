@@ -2,8 +2,8 @@ import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
-import Img2 from "../assets/img/tech.jpg";
 import EventCard from './EventCard';
+import { eventData } from '../constants/index';
 
 const Events = () => {
     const responsive = {
@@ -25,51 +25,6 @@ const Events = () => {
         }
     };
 
-    const data = [
-        {
-            title: "Firefly Hackathon",
-            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam velit voluptate adipisci corporis reprehenderit quis accusamus a unde, nostrum voluptas doloribus iure culpa!",
-            imgUrl: Img2,
-            id: "0001",
-        },
-        {
-            title: "Lorem ipsum dolor sit amet",
-            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam velit voluptate adipisci corporis reprehenderit quis accusamus a unde, nostrum voluptas doloribus iure culpa!",
-            imgUrl: Img2,
-            id: "0002",
-        },
-        {
-            title: "Lorem, ipsum dolor.",
-            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam velit voluptate adipisci corporis reprehenderit quis accusamus a unde, nostrum voluptas doloribus iure culpa!",
-            imgUrl: Img2,
-            id: "0003",
-        },
-        {
-            title: "Lorem, ipsum",
-            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam velit voluptate adipisci corporis reprehenderit quis accusamus a unde, nostrum voluptas doloribus iure culpa!",
-            imgUrl: Img2,
-            id: "0004",
-        },
-        {
-            title: "Lorem",
-            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam velit voluptate adipisci corporis reprehenderit quis accusamus a unde, nostrum voluptas doloribus iure culpa!",
-            imgUrl: Img2,
-            id: "0005",
-        },
-        {
-            title: "Lorem ipsum dolor sit",
-            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam velit voluptate adipisci corporis reprehenderit quis accusamus a unde, nostrum voluptas doloribus iure culpa!",
-            imgUrl: Img2,
-            id: "0006",
-        },
-        {
-            title: "Lorem, ipsum.",
-            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam velit voluptate adipisci corporis reprehenderit quis accusamus a unde, nostrum voluptas doloribus iure culpa!",
-            imgUrl: Img2,
-            id: "0007",
-        },
-    ];
-
   return (
     <section className="skill" id="events">
         <div className="container">
@@ -78,7 +33,7 @@ const Events = () => {
                         <h2>Recent Events</h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            {data.map((item,index) => {
+                            {eventData.map((item,index) => {
                                 return(
                                     <EventCard 
                                         key={index}
