@@ -1,5 +1,7 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
+import { InView } from 'react-intersection-observer';
+
 import 'react-multi-carousel/lib/styles.css';
 import 'animate.css';
 
@@ -29,15 +31,20 @@ const Startup = () => {
         }
       };
   return (
-    <Carousel
-      responsive={responsive}
-      infinite={true}
-      autoPlay={true}
-      focusOnSelect={true}
-      autoPlaySpeed={4000}
-      transitionDuration={500}
-      containerClass="carousel-container"
-    >
+    <InView threshold={0.2}>
+      {({ inView, ref, entry }) => ( 
+      <div ref={ref}>
+      {(inView) &&   
+      <Carousel
+        responsive={responsive}
+        infinite={true}
+        autoPlay={true}
+        centerMode={true}
+        focusOnSelect={true}
+        autoPlaySpeed={4000}
+        transitionDuration={500}
+        containerClass="carousel-container"
+      >
         <div className="slide">
           <img src={Img1} alt="Yellow AI" />
         </div>
@@ -53,7 +60,11 @@ const Startup = () => {
         <div className="slide">
           <img src={Img5} alt="BugClaim" />
         </div>
-    </Carousel>
+      </Carousel>
+      }
+      </div>
+      )}
+    </InView>
   )
 }
 

@@ -798,12 +798,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: scale(1,1);
+    transition: transform 1s;
+  }
+
+  .carousel-container .react-multi-carousel-item--active {
+    transform: scale(1.5,1.5);
+    transition: transform 1s;
   }
 
   .carousel-container .slide img{
-    width: 750px;
-    height: 450px;
-    border-radius: 5px;
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
   }
   
   .img-slider .slide .info{
