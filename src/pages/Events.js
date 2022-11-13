@@ -1,8 +1,10 @@
 import React from 'react'
-
+import EventTimeline from '../components/EventTimeline'
 const Events = () => {
   return (
-    <div>Events</div>
+    <>
+    <EventTimeline/>
+    </>
   )
 }
 
