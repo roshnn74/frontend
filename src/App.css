@@ -1039,3 +1039,106 @@
     opacity:1;
     transform:translateX(0);
   }
+
+
+  /* Contact us */
+
+
+  .contactus{
+    background-color: rgb(255, 255, 255);
+    
+    padding-top: 10%; 
+    padding-bottom: 10% ;
+    background-color:   #251c1c;
+    
+    color: white;
+  }
+
+  .contactus .a0{
+    border: 5px solid rgb(250, 250, 250);
+    margin: 5% 15% 5% 15%;
+    border-collapse: collapse;
+    border-radius:1%;
+    overflow: hidden;
+  }
+
+  .contactus .a11{
+    font-size: 130px;
+    font-weight: 900;
+  }
+  .contactus .a12{
+    font-size: 60px;
+    font-weight: 900;
+  }
+
+  .contactus .a1{
+    /* border-radius: 5% 0% 0%; */
+    padding: 5%;
+    color: #000;
+    
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+    background-color: rgb(200, 200, 200);
+    background-color: #d4db09;
+    font-size: 100px;
+    
+
+    /* background-size: cover; */
+
+  }
+
+  .contactus .a2{
+    /* color: rgb(200, 200, 200); */
+    /* border: 2px solid white; */
+    
+    
+    font-weight: bold;
+    /* border-radius: 0% 5% 5% 0%; */
+    /* border: 5px solid white; */
+    padding: 8%;
+    background: linear-gradient(130deg,  #b4b4b5 0%,#2192FF 55%, #1d00dc 100%);
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+    /* background-color: #858585; */
+    
+  }
+
+  .contactus .form-control{
+    /* border: 0px; */
+    /* border-radius: 0%;
+    background-color: #E6E6E6;
+    height: 50px; */  
+    border-radius: 0%;
+    border: 0px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    /* background-color: #251c1c; */
+  }
+
+  .contactus .form-control:focus{
+    
+    /* border: 0px; */
+    /* border-radius: 0%;
+    background-color: #E6E6E6;
+    height: 50px; */
+    
+
+    
+ border:none;	
+ box-shadow: none !important;
+ border-bottom:1px solid #e74c3c;	
+ background-color: transparent;
+ border-bottom: 5px solid rgb(255, 255, 255);
+    
+
+
+
+  }
+
+  .contactus .btn{
+
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid white;
+    margin-top: 4%;
+  }
