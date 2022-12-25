@@ -2,6 +2,9 @@ import Img1 from "../assets/img/ishita.webp";
 import Img2 from "../assets/img/member.jfif";
 import Img3 from "../assets/img/gm.webp";
 import Img4 from "../assets/img/eventTest.jpeg";
+import Img5 from "../assets/img/surge-cover.jpg";
+import Img6 from "../assets/img/bvic-cover.jpg";
+import Img7 from "../assets/img/tna-ff.jpeg";
 
 export const genManagers = [
     {
@@ -327,4 +330,43 @@ export const iTeamMembers = [
         imgUrl: Img4,
         id: "0007",
     },
-];
+  ];
+
+  export const prevEventData = [
+    {
+      title: "Firefly",
+      date: "January, 2022",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam officia at sapiente explicabo mollitia reiciendis hic ea, quis repudiandae nihil debitis non dignissimos veritatis vel sint ut? Reiciendis, nihil. Quam molestiae aperiam atque sapiente tenetur! Neque quas quasi voluptate quis.",
+      imgUrl: Img7,
+      id: "0",
+    },
+    {
+      title: "Balavikas International Center (BVIC), Hyderabad",
+      date: "April, 2022",
+      description: "Innovation Garage had collaborated with Bala Vikas International Center (BVIC), an innovation center in Hyderabad on the lines of social entrepreneurship and particularly in capacity building initiatives. There are more than five teams at CII that are currently working on social entrepreneurship projects.",
+      imgUrl: Img6,
+      id: "1",
+    },
+    {
+      title: "Smart India Hackathon (SIH)",
+      date: "April, 2022",
+      description: "15 teams were represented by our college and 1 team had received the winners' certificate.",
+      imgUrl: Img7,
+      id: "2",
+    },
+    {
+      title: "Azadi Ka Amrut Mahotsav",
+      date: "September, 2021",
+      description: "A team of students from NITW launched the Amrut Bharat App for effectively learning multiple languages of India.",
+      imgUrl: Img4,
+      id: "3",
+    },
+    {
+      title: "Surge Ahead by Sequoia, Bangalore",
+      date: "July, 2022",
+      description: "A team of students from Innovation Garage were engaged in a scaling up program for startups got a chance to interact with renowned Industry experts.",
+      imgUrl: Img5,
+      id: "4",
+    },
+  ];
+
