@@ -14,6 +14,7 @@ import Community from './pages/Community';
 import Events from './pages/Events';
 import Alumni from './pages/Alumni';
 import ContactUs from './pages/ContactUs';
+import PrevEvents from './pages/PrevEvents';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/achievements" element={<Achievements />} />
+            <Route path="/achievements/:id" element={<PrevEvents />} />
             <Route path="/aboutUs" element={<AboutUs />} />
             <Route path="/community" element={<Community />} />
             <Route path="/events" element={<Events />} />
