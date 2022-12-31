@@ -1,8 +1,15 @@
 import React from 'react'
+import Foundation from '../components/Foundation'
+import MissionVision from '../components/MissionVision'
+
+
 
 const AboutUs = () => {
   return (
-    <div>AboutUs</div>
+    <>
+      <MissionVision/>
+      <Foundation/>
+    </>
   )
 }
 
