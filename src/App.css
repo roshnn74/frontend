@@ -1,19 +1,9 @@
 /* Custom fonts */
 @font-face {
-    font-family: Centra;
-    src: url(./assets/fonts/CentraNo2-Bold.ttf);
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto-Medium.ttf);
     font-weight: 700;
 /* 	 example*/
-}
-@font-face {
-    font-family: Centra;
-    src: url(./assets/fonts/CentraNo2-Medium.ttf);
-    font-weight: 500;
-}
-@font-face {
-    font-family: Centra;
-    src: url(./assets/fonts/CentraNo2-Book.ttf);
-    font-weight: 400;
 }
 
 * {
@@ -33,7 +23,7 @@
     position: relative;
     background-color: #000 !important;
     color: #fff !important;
-    font-family: 'Centra', sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -83,9 +73,9 @@
   }
   
   nav.navbar {
-    padding: 18px 0;
+    padding: 10px 0;
     position: fixed;
-    /* width: 100%; */
+    border-radius: 30px;
     width: 90%;
     top: 5%;
     left: 5%;
@@ -96,8 +86,8 @@
     margin-right: 2rem;
   }
   nav.navbar.scrolled {
-    padding: 10px 0;
-    /* trial */
+    padding: 5px 0;
+    border-radius: 0%;
     width: 100%;
     top: 0;
     left: 0;
@@ -264,7 +254,7 @@
     color: #B8B8B8;
     font-size: 18px;
     letter-spacing: 0.8px;
-    line-height: 1.5em;
+    line-height: 1.4em;
     width: 96%;
   }
   .banner button {
@@ -302,7 +292,6 @@
   }
   
   .footer {
-    padding: 0 0 20px 0;
     background-color: rgb(75, 74, 74);
     background-position: center center;
     background-size: cover;
@@ -339,8 +328,6 @@
     margin: 0;
     padding: 20px;
     color: #fff;
-    /* background-color: #FFEA00; */
-    font: 700 50px 'Signika', sans-serif;
   }
 
   .counter-container {
@@ -430,15 +417,7 @@
   .alumni{
     margin-top: 0%;
     padding: 7% 5%;
-    /* background-image: url('./assets/img/1_center.png') ; */
-    /* background-position: top center; */
-    
-    background-color: #E6E6E6;
-    color: rgb(67, 67, 67);
-
   }
-
-  
 
   .alumni h1{
     margin-top: 5%;
@@ -453,7 +432,7 @@
     margin-top: 7%;
     font-size: 15px;  
     color: whitesmoke;
-    border: 8px solid #E6E6E6;
+    border: 4px solid #E6E6E6;
     border-radius: 20px;
     text-align: left;
     background-color: #B85252;
@@ -476,14 +455,13 @@
     margin: 3% 1%;
     margin-top: 7%;
     color: whitesmoke;
-    border: 8px solid #E6E6E6;
+    border: 4px solid #E6E6E6;
     border-radius: 20px;
     text-align: center;
     height: 300px;
   }
 
   .alumni .startup-title{
-    font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 40px;
     text-align: center;
@@ -526,11 +504,6 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #E6E6E6;
-
-  }
-
-  .container1 .column{
   }
 
   .container1 .box {
@@ -539,9 +512,6 @@
     background-color: #E6E6E6;
     transition: 0.3s all ease-in-out;
     position: relative;
-    /* box-shadow: 0px 0px 15px #E6E6E6; */
-    
-    /* Link */
   }
   .container1 .box .boxContent {
     display: flex;
@@ -560,7 +530,8 @@
   }
   .container1 .box .boxContent .title {
     font-size: 20px;
-    color: gray;
+    font-weight: bold;
+    color: black;
     font-weight: bold;
     padding: 10px;
   }
@@ -808,7 +779,7 @@
   .carousel-container .slide img{
     width: 500px;
     height: 300px;
-    border-radius: 50px;
+    border-radius: 20px;
   }
   
   .img-slider .slide .info{
@@ -1414,8 +1385,8 @@ h1 {
   color: #f0f0f0
 }
 
-    transform: translate(-50%,-50%);
-  }
+    /* transform: translate(-50%,-50%);
+  } */
   .timeline li.visible {
     opacity:1;
     transform:translateX(0);
