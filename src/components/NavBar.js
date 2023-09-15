@@ -56,7 +56,7 @@ function NavBar() {
             <span className="navbar-toggler-icon" ></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="ms-auto align-items-center">
             <Nav.Link href="/" className="navbar-link nav-active" id="home">Home</Nav.Link>
             <Nav.Link href="/achievements" className="navbar-link" id="achievements">Achievements</Nav.Link>
             <Nav.Link href="/aboutUs" className="navbar-link" id="aboutUs">About Us</Nav.Link>

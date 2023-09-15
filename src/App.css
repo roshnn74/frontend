@@ -5,6 +5,7 @@
     font-weight: 700;
 /* 	 example*/
 }
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -79,6 +80,7 @@
     width: 90%;
     top: 5%;
     left: 5%;
+    font-family: 'Nunito', sans-serif;
     z-index: 9999;
     transition:  0.32s ease-in-out;
     background-color: #FFEA00;
@@ -1279,6 +1281,7 @@ h1 {
 .about-section .content-column{
   position: relative;
   margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 .about-section .content-column .inner-column{
@@ -1573,7 +1576,23 @@ h1 {
     top: 62%;
   }
 
+  @media screen and (max-width:991px) {
+    .about-section .content-column .inner-column{
+      padding: 0;
+    }
+    .sec-title2{
+      margin-top: 0;
+    }
+    .section-vision .box{
+      margin: 1%;
+    }
+  }
   @media screen and (max-width:600px) {
+    .social-icon{
+      margin-right: 30px;
+      top: unset;
+      bottom: 5% ;
+    }
     .contactus .a0{
       margin: 20% 3%;
     }
@@ -1581,6 +1600,10 @@ h1 {
       font-family: 'Grotesque';
       font-size: 1rem;
     }
-  
-
+    .about-section .image-column .inner-column:before{
+      border: 30px solid #FFEA00;
+    }
+    .about-section .image-column .inner-column{
+      padding-left: 35px;
+    }
   }
