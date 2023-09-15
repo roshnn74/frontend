@@ -27,7 +27,7 @@ const Startup = () => {
         },
         mobile: {
           breakpoint: { max: 464, min: 0 },
-          items: 1
+          items: 1,
         }
       };
   return (
@@ -46,19 +46,19 @@ const Startup = () => {
         containerClass="carousel-container"
       >
         <div className="slide">
-          <img src={Img1} alt="Yellow AI" />
+          <img draggable={false} src={Img1} alt="Yellow AI" />
         </div>
         <div className="slide">
-          <img src={Img2} alt="Lysto" />
+          <img draggable={false} src={Img2} alt="Lysto" />
         </div>
         <div className="slide">
-          <img src={Img3} alt="Skylark" />
+          <img draggable={false} src={Img3} alt="Skylark" />
         </div>
         <div className="slide">
-          <img src={Img4} alt="AlmaBase" />
+          <img draggable={false} src={Img4} alt="AlmaBase" />
         </div>
         <div className="slide">
-          <img src={Img5} alt="BugClaim" />
+          <img draggable={false} src={Img5} alt="BugClaim" />
         </div>
       </Carousel>
       }
