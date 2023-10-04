@@ -18,8 +18,9 @@ const Footer = () => {
           <span>CONTACT</span>
             <p>+91 94413 42324</p>
             <p>+91 96184 11000</p>
-            <p>hod_cii@nitw.ac.in</p>
-            <p>ig-nitw@student.nitw.ac.in</p>
+            <a href='mailto:hod_cii@nitw.ac.in'>hod_cii@nitw.ac.in</a>
+            <br/>
+            <a href='mailto:ig-nitw@student.nitw.ac.in'>ig-nitw@student.nitw.ac.in</a>
           </Col>
         </Row>
       </Container>

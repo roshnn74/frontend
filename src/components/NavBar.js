@@ -29,7 +29,10 @@ function NavBar() {
       const currentPath = location.pathname.split("/");
       console.log(currentPath);
       const active = document.querySelector(".nav-active");
-      active?.classList.remove("nav-active");
+      if(!active){
+        active.classList.remove("nav-active")
+      }
+      // active?.classList.remove("nav-active");
       let currentLink ;
       if(currentPath[1] === "") {
         currentLink = document.getElementById("home");

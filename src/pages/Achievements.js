@@ -35,7 +35,7 @@ const Achievements = () => {
   
   return (
     <div className="hover-gallery" id="hover-gallery">
-      <div className="gallery" id="gallery">
+      <div style={{height:"90%"}} className="gallery" id="gallery">
         {
           prevEventData.map((item,index) => {
             return(
