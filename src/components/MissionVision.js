@@ -14,18 +14,10 @@ const MissionVision = () => {
                   <h2>Mission</h2>
                 </div>
                 <div class="text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
-                  libero quisquam illum quos. Sint ipsum fuga aliquam laboriosam
-                  ad autem veritatis eum, atque est suscipit ducimus cupiditate
-                  debitis ex nobis numquam fugiat iusto distinctio itaque nulla
-                  tempore modi. Perspiciatis, temporibus.
-                </div>
-                <div class="text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
-                  libero quisquam illum quos. Sint ipsum fuga aliquam laboriosam
-                  ad autem veritatis eum, atque est suscipit ducimus cupiditate
-                  debitis ex nobis numquam fugiat iusto distinctio itaque nulla
-                  tempore modi. Perspiciatis, temporibus.
+                  To provide the necessary infrastructure, mentorship, seed
+                  funding, and resources & facilities to convert innovative
+                  ideas into working prototypes, independent businesses, or
+                  products in line with our entrepreneurial vision.
                 </div>
               </div>
             </div>
@@ -44,16 +36,9 @@ const MissionVision = () => {
             <h2>Vision</h2>
           </div>
           <div class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-            dolores repellendus esse eos alias rem quidem vero unde cum
-            eligendi! Adipisci nihil vitae nobis officia, repellat dolorum eum
-            dignissimos harum.
-          </div>
-          <div class="text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
-            incidunt quibusdam cumque, quos amet, quod quia rerum explicabo
-            dolore expedita voluptatibus mollitia. Placeat a eius vitae
-            explicabo officia optio cupiditate.
+            To accelerate the development of the technology and startup culture
+            among students and promote the entrepreneurial ecosystem at NIT
+            Warangal.
           </div>
         </div>
       </section>

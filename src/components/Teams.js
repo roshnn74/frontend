@@ -22,7 +22,7 @@ const Teams = () => {
                                 return (
                                     <MemberCard
                                         key={index}
-                                        {...members}
+                                        props={members}
                                     />
                                 )
                             })
@@ -47,19 +47,19 @@ const Teams = () => {
                             <Nav.Link eventKey="first-first">Design Team</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="first-second">PR Team</Nav.Link>
+                            <Nav.Link eventKey="first-second">Media Team</Nav.Link>
                         </Nav.Item>
                         </Nav>
                         <Tab.Content id="slideInUp">
                             <Tab.Pane eventKey="first-first">
-                                <p className="animate__animated animate__zoomIn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum libero, soluta est ex alias quam natus autem. Delectus, tempora reiciendis minus recusandae deserunt commodi ratione voluptates doloribus? Ducimus sed iste atque molestias corrupti vitae nesciunt, quis cumque perferendis eveniet optio fugiat, ea magnam id excepturi deserunt consequuntur veniam repellat eius, earum dolore. Assumenda quia dicta expedita, veniam maiores voluptates animi excepturi in accusantium necessitatibus nemo hic perspiciatis soluta recusandae alias doloribus natus libero qui itaque cum at, ipsa tempora dolorum eaque. Libero neque temporibus tempore aliquam laboriosam expedita obcaecati mollitia esse, excepturi dolor pariatur eaque labore, ducimus, repudiandae porro. Autem.</p>
+                                <p className="animate__animated animate__zoomIn">The design team is the visual communicator of Innovation Garage and plays a critical role in shaping the visual and user experiences of the projects and initiatives undertaken by the IG itself. We create illustrative posters, websites, designs, trailers, logos, T-shirts, and other graphic designs. We utilize our creativity to bring brand representation to our campus.</p>
                                 <Row>
                                 {
                                     designTeamMembers.map((members, index) => {
                                         return (
                                             <MemberCard
                                                 key={index}
-                                                {...members}
+                                                props={members}
                                             />
                                     )
                                     })
@@ -67,14 +67,14 @@ const Teams = () => {
                                 </Row>
                             </Tab.Pane>
                             <Tab.Pane eventKey="first-second">
-                                <p className="animate__animated animate__zoomIn">The Public Relations Team is the face of the organization and acts as the bridge between Innovation Garage and the student community of NITW. We strive to promote entrepreneurship and innovation on the campus by engaging with the students who approach IG and providing them with the resources they require. We maintain the brand integrity and online presence of IG on campus by engaging in spontaneous & creative social media marketing and by being the Frontline desk of IG. The PR team focuses on brainstorming with the team and bringing up new ideas to the table along with curation of quality.</p>
+                                <p className="animate__animated animate__zoomIn">The Media Team is the face of the organization and acts as the bridge between Innovation Garage and the student community of NITW. We strive to promote entrepreneurship and innovation on the campus by engaging with the students who approach IG and providing them with the resources they require. We maintain the brand integrity and online presence of IG on campus by engaging in spontaneous & creative social media marketing and by being the Frontline desk of IG. The Media team focuses on brainstorming with the team and bringing up new ideas to the table along with curation of quality.</p>
                                 <Row>
                                 {
                                     prTeamMembers.map((members, index) => {
                                         return (
                                             <MemberCard
                                                 key={index}
-                                                {...members}
+                                                props={members}
                                             />
                                     )
                                     })
@@ -93,14 +93,14 @@ const Teams = () => {
                         </Nav>
                         <Tab.Content id="slideInUp">
                             <Tab.Pane eventKey="second-first">
-                                <p className="animate__animated animate__zoomIn">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim recusandae perspiciatis saepe rem earum, dolorem harum consectetur! Facere, nihil ipsum a aut corrupti nobis provident et laboriosam amet enim facilis nostrum illo iusto suscipit dignissimos nesciunt quo incidunt doloremque placeat, assumenda illum iste vel cumque? Porro ut quam quisquam eaque cumque illo, quo amet sapiente labore ad voluptates consequatur quia iste velit nobis nemo nostrum adipisci vel dolor possimus omnis. Hic mollitia vel ipsum quisquam. Sapiente quo esse temporibus, omnis quaerat neque repudiandae asperiores doloribus at nostrum modi dolorum illo a minima error. Non eius blanditiis sapiente dolorum quod nobis.</p>
+                                <p className="animate__animated animate__zoomIn">The Event Conduction and Coordination team is an integral part of Innovation Garage (IG). As the name suggests, the key role of the ECC team is to ensure that events organized by IG run smoothly and efficiently.ECC will require you to be an organizational freak, someone who owns the floor and takes control of the team’s actions and at some point leads the team. Anyway, where’s the fun in working behind a desktop?</p>
                                 <Row>
                                 {
                                     eccTeamMembers.map((members, index) => {
                                         return (
                                             <MemberCard
                                                 key={index}
-                                                {...members}
+                                                props={members}
                                             />
                                     )
                                     })
@@ -112,16 +112,14 @@ const Teams = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <Tab.Container id="projects-tabs" defaultActiveKey="third-first"> 
-                      <Nav variant="pills" className="nav-pills-third mb-5 justify-content-center align-items-center" id="pills-tab">
+                      <Nav variant="pills" className="nav-pills-first mb-5 justify-content-center align-items-center" id="pills-tab">
                         <Nav.Item>
                             <Nav.Link eventKey="third-first">Startup Facilities</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                             <Nav.Link eventKey="third-second">Tech Team</Nav.Link>
                         </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link eventKey="third-third">I Team</Nav.Link>
-                        </Nav.Item>
+
                       </Nav>
                       <Tab.Content id="slideInUp">
                             <Tab.Pane eventKey="third-first">
@@ -132,7 +130,7 @@ const Teams = () => {
                                         return (
                                             <MemberCard
                                                 key={index}
-                                                {...members}
+                                                props={members}
                                             />
                                     )
                                     })
@@ -147,22 +145,7 @@ const Teams = () => {
                                         return (
                                             <MemberCard
                                                 key={index}
-                                                {...members}
-                                            />
-                                    )
-                                    })
-                                }
-                                </Row>
-                            </Tab.Pane>
-                            <Tab.Pane eventKey="third-third">
-                                <p className="animate__animated animate__zoomIn">I Team is the front face of the NIT Warangal Entrepreneurial community. Innovation Garage noticed that there was a lack in a team which completely channelizes their efforts just into building a startup collectively by helping each other. To fill this gap, we formed a team of a bunch of founders who have been making great progress with respect to their startup journey. Apart from building their startups, I Team also takes up the responsibility of improving the startup and product culture in NIT Warangal by collectively working with Startup Facilities. While SF takes care of the back end of the startup building framework, I Team takes care of the front end, i.e interacting with other teams and motivating them to build their startups along with I Team.</p>
-                                <Row>
-                                {
-                                    iTeamMembers.map((members, index) => {
-                                        return (
-                                            <MemberCard
-                                                key={index}
-                                                {...members}
+                                                props={members}
                                             />
                                     )
                                     })
