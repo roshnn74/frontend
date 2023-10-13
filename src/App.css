@@ -5,6 +5,7 @@
     font-weight: 700;
 /* 	 example*/
 }
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -79,6 +80,7 @@
     width: 90%;
     top: 5%;
     left: 5%;
+    font-family: 'Nunito', sans-serif;
     z-index: 9999;
     transition:  0.32s ease-in-out;
     background-color: #FFEA00;
@@ -763,7 +765,9 @@
     border-radius: 5px;
     margin: 10px;
   }
-
+  .carousel-container{
+    width: 100vw;
+  }
   .carousel-container .slide{
     margin: 0;
     padding: 0;
@@ -775,15 +779,25 @@
     transform: scale(1,1);
     transition: transform 1s;
   }
-
+  .slide{
+    width: 100%;
+  }
+  
+  .react-multi-carousel-item{
+    opacity: 0.7;
+  }
   .carousel-container .react-multi-carousel-item--active {
     transform: scale(1.5,1.5);
     transition: transform 1s;
+    z-index: 1;
+    opacity: 1;
   }
 
   .carousel-container .slide img{
-    width: 500px;
-    height: 300px;
+    /* max-width: 90vw; */
+    width: 90%;
+    /* height: 300px; */
+    /* width: 100%; */
     border-radius: 20px;
   }
   
@@ -1284,6 +1298,7 @@ h1 {
 .about-section .content-column{
   position: relative;
   margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 .about-section .content-column .inner-column{
@@ -1433,8 +1448,14 @@ h1 {
     background-color: #d4db09;
     font-size: 100px;
     
+    font-family: 'Grotesque Black';
 
     /* background-size: cover; */
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
   }
 
@@ -1451,6 +1472,10 @@ h1 {
     /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
     /* background-color: #858585; */
     
+  }
+  .contactus .a2 label,.contactus .a2 .btn{
+    font-family: 'Grotesque';
+    font-size: 1.1rem;
   }
 
   .contactus .form-control{
@@ -1566,4 +1591,45 @@ h1 {
     width: 20%;
     left: 66%;
     top: 62%;
+  }
+
+  @media screen and (max-width:991px) {
+    .about-section .content-column .inner-column{
+      padding: 0;
+    }
+    .sec-title2{
+      margin-top: 0;
+    }
+    .section-vision .box{
+      margin: 1%;
+    }
+  }
+  @media screen and (max-width:770px) {
+    .project .nav.nav-pills{
+      display: flex;
+      width: 100%;
+    }
+    .project .nav.nav-pills .nav-link {
+      font-size: 13px;
+    }
+  }
+  @media screen and (max-width:600px) {
+    .social-icon{
+      margin-right: 30px;
+      top: unset;
+      bottom: 5% ;
+    }
+    .contactus .a0{
+      margin: 20% 3%;
+    }
+    .contactus .a2 label,.contactus .a2 .btn{
+      font-family: 'Grotesque';
+      font-size: 1rem;
+    }
+    .about-section .image-column .inner-column:before{
+      border: 30px solid #FFEA00;
+    }
+    .about-section .image-column .inner-column{
+      padding-left: 35px;
+    }
   }
