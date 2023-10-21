@@ -9,7 +9,7 @@ import Img7 from "../assets/img/tna-ff.jpeg";
 export const genManagers = [
   {
     title: "Keerthi",
-    description: "Member",
+    description: "General Manager",
     imgUrl:
       "https://drive.google.com/thumbnail?id=1JO3N3m3RZmc9IVOHOzwIk0uHbaMrDKRI",
     email: "mv932016@student.nitw.ac.in",
@@ -17,7 +17,7 @@ export const genManagers = [
   },
   {
     title: "Muralidhar Vedantam",
-    description: "Member",
+    description: "General Manager",
     imgUrl:
       "https://drive.google.com/thumbnail?id=1q7fAXdcc-dlZKPX0o6iMoSHDbdcmH9WJ",
     email: "vv862013@student.nitw.ac.in",

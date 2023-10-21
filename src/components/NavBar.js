@@ -64,7 +64,6 @@ function NavBar() {
             <Nav.Link href="/achievements" className="navbar-link" id="achievements">Achievements</Nav.Link>
             <Nav.Link href="/aboutUs" className="navbar-link" id="aboutUs">About Us</Nav.Link>
             <Nav.Link href="/community" className="navbar-link" id="community">Community</Nav.Link>
-            <Nav.Link href="/events" className="navbar-link" id="events">Events</Nav.Link>
             <Nav.Link href="/alumni" className="navbar-link" id="alumni">Alumni</Nav.Link>
             <Nav.Link href="/contactUs" className="navbar-link" id="contactUs">Contact Us</Nav.Link>
           </Nav>
