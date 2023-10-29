@@ -15,6 +15,7 @@ import Events from './pages/Events';
 import Alumni from './pages/Alumni';
 import ContactUs from './pages/ContactUs';
 import PrevEvents from './pages/PrevEvents';
+import FormsAndGuidelines from './pages/FormsAndGuidelines';
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
             <Route path="/events" element={<Events />} />
             <Route path="/alumni" element={<Alumni />} />
             <Route path="/contactUs" element={<ContactUs />} />
+            <Route path="/formsAndGuidelines" element={<FormsAndGuidelines/>}/>
         </Routes>
         <Social />
         <Footer />

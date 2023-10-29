@@ -6,6 +6,17 @@ import Img5 from "../assets/img/surge-cover.jpg";
 import Img6 from "../assets/img/bvic-cover.jpg";
 import Img7 from "../assets/img/tna-ff.jpeg";
 
+import vakula from "../assets/img/prof/vakula.jpg";
+import rama from "../assets/img/prof/rama.png";
+import karthik from "../assets/img/prof/karthik.jpg";
+import venkaiah from "../assets/img/prof/venkaiah.jpg";
+import kiran from "../assets/img/prof/kiran.jpg";
+import rout from "../assets/img/prof/rout.jpg";
+import anjaneyulu from "../assets/img/prof/anjaeyulu.jpg";
+import narasimharaju from "../assets/img/prof/narasimhara.jpg";
+import muralidar from "../assets/img/prof/muralidhar.jpg";
+import maheswaram from "../assets/img/prof/satish.jpg";
+
 export const genManagers = [
   {
     title: "Keerthi",
@@ -352,14 +363,16 @@ export const eventData = [
     date: "March, 2023",
     description:
       "Flagship Hackathon exclusively for tech enthusiasts from engineering colleges across the nation",
-    imgUrl: "https://drive.google.com/thumbnail?id=1G1DNC-S_e1tTVI3Fp90_pdtQRonO76zC",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=1G1DNC-S_e1tTVI3Fp90_pdtQRonO76zC",
     id: "0",
   },
   {
     title: "Open House",
     date: "December, 2022",
     description: "awareness program regarding CII activities for freshers",
-    imgUrl: "https://drive.google.com/thumbnail?id=17ZqImmOyNGQFXSyzuUWLj6lCVkphX3Yf",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=17ZqImmOyNGQFXSyzuUWLj6lCVkphX3Yf",
     id: "1",
   },
   {
@@ -367,7 +380,8 @@ export const eventData = [
     date: "November, 2022",
     description:
       "Cohort designed for validation and scalability evaluation of students’ ideas",
-    imgUrl: "https://drive.google.com/thumbnail?id=11vxfnbkxwy8tKzBVKzuQ0hsIjGV7LReb",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=11vxfnbkxwy8tKzBVKzuQ0hsIjGV7LReb",
     id: "2",
   },
   {
@@ -375,7 +389,8 @@ export const eventData = [
     date: "October, 2022",
     description:
       "Internship and Training Program on startups scouting and evaluation for students of NIT Warangal",
-    imgUrl: "https://drive.google.com/thumbnail?id=1fZiaU4Y0ZPXUZoA62LL8crMwPrv7zmrw",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=1fZiaU4Y0ZPXUZoA62LL8crMwPrv7zmrw",
     id: "3",
   },
   {
@@ -383,7 +398,8 @@ export const eventData = [
     date: "October, 2022",
     description:
       "Tech boot camps aimed at upskilling students across various domains",
-    imgUrl: "https://drive.google.com/thumbnail?id=1Jm5REL1EgMinwnvCLq3xvk-5D1Izhkb0",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=1Jm5REL1EgMinwnvCLq3xvk-5D1Izhkb0",
     id: "4",
   },
 ];
@@ -394,7 +410,8 @@ export const timeLineEventData = [
     date: "March, 2023",
     description:
       "Flagship Hackathon exclusively for tech enthusiasts from engineering colleges across the nation",
-    imgUrl: "https://drive.google.com/thumbnail?id=1G1DNC-S_e1tTVI3Fp90_pdtQRonO76zC",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=1G1DNC-S_e1tTVI3Fp90_pdtQRonO76zC",
     id: "0",
   },
   {
@@ -402,7 +419,8 @@ export const timeLineEventData = [
     date: "March, 2023",
     description:
       "Webinar on Blockchain and Web3 by Founders of Loarr and Filecoin",
-    imgUrl: "https://drive.google.com/thumbnail?id=1G1DNC-S_e1tTVI3Fp90_pdtQRonO76zC",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=1G1DNC-S_e1tTVI3Fp90_pdtQRonO76zC",
     id: "0",
   },
   {
@@ -410,7 +428,8 @@ export const timeLineEventData = [
     date: "March, 2023",
     description:
       "Intellectual Property Rights (IPR) awareness webinar by Shri Thilak Vadicherla, an eminent NIPAM Officer and Examiner",
-    imgUrl: "https://drive.google.com/thumbnail?id=1G1DNC-S_e1tTVI3Fp90_pdtQRonO76zC",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=1G1DNC-S_e1tTVI3Fp90_pdtQRonO76zC",
     id: "0",
   },
   {
@@ -418,14 +437,16 @@ export const timeLineEventData = [
     date: "March, 2023",
     description:
       "Unleashing Entrepreneurship by Rajarshi and Sonal, Founders of BlueHelmet",
-    imgUrl: "https://drive.google.com/thumbnail?id=1G1DNC-S_e1tTVI3Fp90_pdtQRonO76zC",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=1G1DNC-S_e1tTVI3Fp90_pdtQRonO76zC",
     id: "0",
   },
   {
     title: "Open House",
     date: "December, 2022",
     description: "awareness program regarding CII activities for freshers",
-    imgUrl: "https://drive.google.com/thumbnail?id=17ZqImmOyNGQFXSyzuUWLj6lCVkphX3Yf",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=17ZqImmOyNGQFXSyzuUWLj6lCVkphX3Yf",
     id: "1",
   },
   {
@@ -433,7 +454,8 @@ export const timeLineEventData = [
     date: "November, 2022",
     description:
       "Cohort designed for validation and scalability evaluation of students’ ideas",
-    imgUrl: "https://drive.google.com/thumbnail?id=11vxfnbkxwy8tKzBVKzuQ0hsIjGV7LReb",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=11vxfnbkxwy8tKzBVKzuQ0hsIjGV7LReb",
     id: "2",
   },
   {
@@ -441,7 +463,8 @@ export const timeLineEventData = [
     date: "November, 2022",
     description:
       "Pitching Session by Ram Gangaraju, Chairman of NITW StartUp Accelerator 3.0",
-    imgUrl: "https://drive.google.com/thumbnail?id=11vxfnbkxwy8tKzBVKzuQ0hsIjGV7LReb",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=11vxfnbkxwy8tKzBVKzuQ0hsIjGV7LReb",
     id: "2",
   },
   {
@@ -449,7 +472,8 @@ export const timeLineEventData = [
     date: "November, 2022",
     description:
       "Talk on Social Entrepreneurship featuring Divya Reddy, a TEDx Speaker who is a fashion expert, a self-made entrepreneur, and a social activist",
-    imgUrl: "https://drive.google.com/thumbnail?id=11vxfnbkxwy8tKzBVKzuQ0hsIjGV7LReb",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=11vxfnbkxwy8tKzBVKzuQ0hsIjGV7LReb",
     id: "2",
   },
   {
@@ -457,7 +481,8 @@ export const timeLineEventData = [
     date: "November, 2022",
     description:
       "The KAI Way by Nicola Kirton and Curtis Fridel from the KAI Foundation and CCPT, VirginiaTech",
-    imgUrl: "https://drive.google.com/thumbnail?id=11vxfnbkxwy8tKzBVKzuQ0hsIjGV7LReb",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=11vxfnbkxwy8tKzBVKzuQ0hsIjGV7LReb",
     id: "2",
   },
   {
@@ -465,7 +490,8 @@ export const timeLineEventData = [
     date: "October, 2022",
     description:
       "Internship and Training Program on startups scouting and evaluation for students of NIT Warangal",
-    imgUrl: "https://drive.google.com/thumbnail?id=1fZiaU4Y0ZPXUZoA62LL8crMwPrv7zmrw",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=1fZiaU4Y0ZPXUZoA62LL8crMwPrv7zmrw",
     id: "3",
   },
   {
@@ -473,7 +499,8 @@ export const timeLineEventData = [
     date: "October, 2022",
     description:
       "Tech boot camps aimed at upskilling students across various domains",
-    imgUrl: "https://drive.google.com/thumbnail?id=1Jm5REL1EgMinwnvCLq3xvk-5D1Izhkb0",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=1Jm5REL1EgMinwnvCLq3xvk-5D1Izhkb0",
     id: "4",
   },
 ];
@@ -484,7 +511,8 @@ export const prevEventData = [
     date: "March, 2023",
     description:
       "BYTE Hack was a 2-day technical hackathon held over the weekend was a huge success, with participation from local colleges and problem statements from five different sectors of the economy. The hackathon provided a fantastic opportunity for participants to showcase their coding skills and work collaboratively to find innovative solutions to real-world challenges. We had mentors available throughout the hackathon to provide guidance and support.The final presentations were impressive, with participants demonstrating their creativity and technical prowess. Overall, the event was a great platform for students to learn, network, and showcase their talents in a challenging and fun environment.This techncial event recorded a whopping participation of 300+ students from various colleges all over the natio(online+offline) accompanied by the participation of mentors/judges",
-    imgUrl: "https://drive.google.com/thumbnail?id=1G1DNC-S_e1tTVI3Fp90_pdtQRonO76zC",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=1G1DNC-S_e1tTVI3Fp90_pdtQRonO76zC",
     id: "0",
   },
   {
@@ -492,14 +520,17 @@ export const prevEventData = [
     date: "March, 2023",
     description:
       "Case closed was a competition where participants are supposed to choose the startup  that saw rapid growth and promising revenue/results at first but eventually  failed.Participants brainstormed, analyzed and came up with detailed proposal on the possible reasons for the failure of the startup and they have presented the potential solutions that they think might helped in scaling up that startup.The main objective of the event was to provide the opportunity for startup enthusiasts and budding entrepreneurs to understand aspects to be aware of while building their product and how to overcome them.The event was held on 19th December 2022 and it went on for around 2 hours. The event recorded the participation of around 52 students and was conducted in physical mode.",
-    imgUrl: "https://drive.google.com/thumbnail?id=1GVm0AkpwJ-UM50RqsUpqyq9ExrOSFMAX",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=1GVm0AkpwJ-UM50RqsUpqyq9ExrOSFMAX",
     id: "1",
   },
   {
     title: "Open House",
     date: "December, 2022",
-    description: "To welcome the fresher’s of our college, we, Innovation Garage organised open house session exclusively for first year students. In this particular session we discussed about functions of Innovation Garage, about start ups and all about innovation. Also the founders of start up team under Centre of Innovation and Incubation interacted with students and shared own journey of starting a new venture. At last finished off by conducting some interesting games and distributed prizes accordingly.With over 350 freshers across all the departments joining us, the enthusiasm and energy demonstrated during the session was unparalleled and we, the team CII are extremely elated to kickstart new academic year of IG with such overwhelming response.",
-    imgUrl: "https://drive.google.com/thumbnail?id=17ZqImmOyNGQFXSyzuUWLj6lCVkphX3Yf",
+    description:
+      "To welcome the fresher’s of our college, we, Innovation Garage organised open house session exclusively for first year students. In this particular session we discussed about functions of Innovation Garage, about start ups and all about innovation. Also the founders of start up team under Centre of Innovation and Incubation interacted with students and shared own journey of starting a new venture. At last finished off by conducting some interesting games and distributed prizes accordingly.With over 350 freshers across all the departments joining us, the enthusiasm and energy demonstrated during the session was unparalleled and we, the team CII are extremely elated to kickstart new academic year of IG with such overwhelming response.",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=17ZqImmOyNGQFXSyzuUWLj6lCVkphX3Yf",
     id: "2",
   },
   {
@@ -507,7 +538,8 @@ export const prevEventData = [
     date: "November, 2022",
     description:
       "Ideate was conducted as a 4-week cohort programme including a series of workshops. Held during November, the cohort involved discussions on various aspects of a startup cycle including design thinking, business model canvas. Pitching, Product conceptualization and Prototype building. Various expert speakers were invited to talk on the same. Aimed at helping participants and aspiring entrepreneurs develop a refined business idea and validate its commercial viability with their target audience, the cohort acted as a platform for aspiring student entrepreneurs to figure out the right way to go about taking their ideas from zero to one.  At the end of the cohort, participants got a chance to present their business ideas to a panel of distinguished industry professionals for evaluation and the finalists’ projects are currently incubated at CII with the members working under the I Team’s guidance and mentorship.",
-    imgUrl: "https://drive.google.com/thumbnail?id=11vxfnbkxwy8tKzBVKzuQ0hsIjGV7LReb",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=11vxfnbkxwy8tKzBVKzuQ0hsIjGV7LReb",
     id: "3",
   },
   {
@@ -515,7 +547,8 @@ export const prevEventData = [
     date: "October, 2022",
     description:
       "Meet the Innovators is an open networking session conducted by Innovation Garage on 29th October, 2022, with an aim to increase collaboration, networking and skill development among the students in college. The event recorded participation from students of all years and backgrounds and we talked over current student startups and ongoing projects of CII and about the Ideate Cohort as well. We also arranged separate booths for each start-up team to provide an opportunity for students to directly interact with the teams and learn more about their journey and what it takes to startup when in college",
-    imgUrl: "https://drive.google.com/thumbnail?id=1NbDn_fmM8UBErPI_ClxKVhi8ErMhqcz1",
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=1NbDn_fmM8UBErPI_ClxKVhi8ErMhqcz1",
     id: "4",
   },
   // {
@@ -543,3 +576,129 @@ export const prevEventData = [
   //   id: "7",
   // },
 ];
+
+export const guidelines = [
+  {
+    title: "Admission to CII NIT W Guidline Document",
+    url:
+      "https://docs.google.com/document/d/1C6mIFaRFG39qN_DLhA_rf9P2Hvs6thBs/edit?usp=drive_link&ouid=112438626362650053059&rtpof=true&sd=true",
+  },
+  {
+    title: "NITW-startup policy modified",
+    url:
+      "https://docs.google.com/document/d/177dj1eVBeCG5ZmG0tJOU-3SwEZD8Wj4m/edit?usp=drive_link&ouid=112438626362650053059&rtpof=true&sd=true",
+  },
+  {
+    title: "NIT W Policy",
+    url:
+      "https://docs.google.com/document/d/17Y1qrs3JANeF2_BBNaNYLBllAlN_jP8m/edit?usp=drive_link&ouid=112438626362650053059&rtpof=true&sd=true",
+  },
+];
+
+export const forms = [
+  {
+    title:
+      "Patent Draft, Filing, early publication and Requisition for first examination report",
+    url:
+      "https://docs.google.com/document/d/1npcYFxooSnScupvLXn0avZVir5ji4gz1/edit?usp=drive_link&ouid=112438626362650053059&rtpof=true&sd=true",
+  },
+  {
+    title:
+      "Reply to First Examination Report",
+    url:
+      "https://docs.google.com/document/d/1EdpZTcolqH7gMlSxLyAIm0BxvFm_abmJ/edit?usp=drive_link&ouid=112438626362650053059&rtpof=true&sd=true",
+  },
+  {
+    title:
+      "Hearing for filed patent",
+    url:
+      "https://docs.google.com/document/d/1HbwyFlH2xpMDfAXApcqsEZoZu4uysVj-/edit?usp=drive_link&ouid=112438626362650053059&rtpof=true&sd=true",
+  },
+  {
+    title:
+      "Patent renewal fee",
+    url:
+      "https://docs.google.com/document/d/1z0cyNzTdQVr5dCVfQyCxNM068GamJHmG/edit?usp=drive_link&ouid=112438626362650053059&rtpof=true&sd=true",
+  },
+  {
+    title:
+      "Statement of working for granted patent",
+    url:
+      "https://docs.google.com/document/d/1AO9dccTJmtV8bzPZ1XxkfIVE4ias7xE0/edit?usp=drive_link&ouid=112438626362650053059&rtpof=true&sd=true",
+  },
+  {
+    title:"Faculty Entrepreneurship application form NIT W",
+    url:"https://docs.google.com/document/d/1NnIdsEyUKutbnNf-2Bx9Hq79jb7Z_dzZ/edit?usp=drive_link&ouid=112438626362650053059&rtpof=true&sd=true"
+  },
+  {
+    title:"IDF form",
+    url:"https://docs.google.com/document/d/1eZN9HELWPZqDEuQNd4P7_8tJiy35w6xE/edit?usp=drive_link&ouid=112438626362650053059&rtpof=true&sd=true"
+  },
+  {
+    title:"Letter of Work Completion",
+    url:"https://docs.google.com/document/d/1JWaR64pK3FijZTUEJ_hwA64CTjuRjhkj/edit?usp=drive_link&ouid=112438626362650053059&rtpof=true&sd=true"
+  }
+];
+
+export const boardMembers=[
+  {
+    name:"Dr . Mrs. VAKULA D",
+    url:"https://wsdc.nitw.ac.in/facultynew/facultyprofile/id/16303",
+    imgUrl:vakula,
+    description:"Board Member"
+  },
+  {
+    name:"Prof. Rama Devi V",
+    url:"https://wsdc.nitw.ac.in/facultynew/facultyprofile/id/16939",
+    imgUrl:rama,
+    description:"Board Member"
+  },
+  {
+    name:"Dr. Karthik Balasubramanian",
+    url:"https://wsdc.nitw.ac.in/facultynew/facultyprofile/id/16513",
+    imgUrl:karthik,
+    description:"Board Member"
+  },
+  {
+    name:"Dr Chintham Venkaiah",
+    url:"https://wsdc.nitw.ac.in/facultynew/facultyprofile/id/16235",
+    imgUrl:venkaiah,
+    description:"Board Member"
+  },
+  {
+    name:"Dr. KIRAN KUMAR K",
+    url:"https://wsdc.nitw.ac.in/facultynew/facultyprofile/id/16419",
+    imgUrl:kiran,
+    description:"Board Member"
+  },
+  {
+    name:"Dr. Rashmi Ranjan Rout",
+    url:"https://wsdc.nitw.ac.in/facultynew/facultyprofile/id/16336",
+    imgUrl:rout,
+    description:"Board Member"
+  },
+  {
+    name:"Prof ANJANEYULU L",
+    url:"https://wsdc.nitw.ac.in/facultynew/facultyprofile/id/16297",
+    imgUrl:anjaneyulu,
+    description:"Board Member"
+  },
+  {
+    name:"Dr. Narasimharaju B. L",
+    url:"https://wsdc.nitw.ac.in/facultynew/facultyprofile/id/16242",
+    imgUrl:narasimharaju,
+    description:"Board Member"
+  },
+  {
+    name:"Dr.Muralidhar Pullakandam",
+    url:"https://wsdc.nitw.ac.in/facultynew/facultyprofile/id/16308",
+    imgUrl:muralidar,
+    description:"Board Member"
+  },
+  {
+    name:"Dr. Maheshwaram Satish",
+    url:"https://wsdc.nitw.ac.in/facultynew/facultyprofile/id/16887",
+    imgUrl:maheswaram,
+    description:"Board Member"
+  },
+]

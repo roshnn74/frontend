@@ -16,8 +16,8 @@ const Footer = () => {
           </Col>
           <Col size={12} sm={4}>
           <span>CONTACT</span>
-            <p>+91 94413 42324</p>
-            <p>+91 96184 11000</p>
+            <p>+91 70321 60133</p>
+            <p>+91 93955 33228</p>
             <a href='mailto:hod_cii@nitw.ac.in'>hod_cii@nitw.ac.in</a>
             <br/>
             <a href='mailto:ig-nitw@student.nitw.ac.in'>ig-nitw@student.nitw.ac.in</a>

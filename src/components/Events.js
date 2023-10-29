@@ -31,7 +31,7 @@ const Events = () => {
             <div className="row">
                     <div className="skill-bx">
                         <h2>Recent Events</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>Discover Our Club's Recent Happenings and Upcoming Events.<br></br> Get the latest updates on our exciting activities!</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             {eventData.map((item,index) => {
                                 return(

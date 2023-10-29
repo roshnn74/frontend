@@ -1633,3 +1633,41 @@ h1 {
       padding-left: 35px;
     }
   }
+
+  .guidelines{
+    margin-top:20%
+  }
+  .forms{
+    margin-top:10%
+  }
+
+.guidelinesBox{
+    width: 350px;
+    height: 350px;
+    transition-duration: 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.guidelinesBox:hover{
+    transition-duration: 150ms;
+    background: #c3f95b;
+    border-radius: 30px;
+    color: #000;
+  }
+
+.guidelinesBox button{
+    background-color: gold;
+    color: black;
+    height: fit-content;
+    padding: 30px;
+    transition-duration: 1.2s;
+  }
+.guidelinesBox button:hover{
+    transition-duration: 200ms;
+    background: white;
+    color: black;
+    border-radius: 20px;
+  }
