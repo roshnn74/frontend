@@ -12,8 +12,10 @@ import {
   techTeamMembers,
   iTeamMembers,
   boardMembers,
+  outreachTeam,
 } from "../constants";
 import "animate.css";
+import shirish from "../assets/img/prof/shirish.png";
 
 const Teams = () => {
   return (
@@ -24,6 +26,42 @@ const Teams = () => {
             <div>
               <h2>Board Members</h2>
               <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                <Row
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    flexWrap: "wrap",
+                  }}
+                >
+                  <div
+                    className="proj-imgbx animate__animated animate__zoomInUp animate__delay-1s"
+                    style={{ width: "350px" }}
+                  >
+                    <img
+                      src={shirish}
+                      style={{ height: "350px", width: "350px" }}
+                      alt=""
+                    />
+                    <div className="proj-txtx">
+                      <h4>Prof Shirish H Sonawane</h4>
+                      <span>Head, CII</span>
+                      <div
+                        style={{
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                      >
+                        <a href="https://wsdc.nitw.ac.in/facultynew/facultyprofile/id/16328">
+                          <LaunchIcon
+                            fontSize="large"
+                            sx={{ color: " #FFEA00" }}
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </Row>
                 <Row
                   style={{
                     display: "flex",
@@ -163,6 +201,11 @@ const Teams = () => {
                             Media Team
                           </Nav.Link>
                         </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="third-fifth">
+                            Outreach Team
+                          </Nav.Link>
+                        </Nav.Item>
                       </Nav>
                       <Tab.Content id="slideInUp">
                         <Tab.Pane eventKey="third-first">
@@ -195,21 +238,13 @@ const Teams = () => {
                         </Tab.Pane>
                         <Tab.Pane eventKey="third-second">
                           <p className="animate__animated animate__zoomIn">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Vero quasi quae libero adipisci optio veniam,
-                            repellat debitis, iste facilis maxime nemo nesciunt
-                            quia voluptatum, sunt impedit saepe minus. Id earum
-                            velit repudiandae perferendis fuga, rem pariatur
-                            maiores sapiente mollitia, ex soluta culpa
-                            reiciendis quidem totam eum repellendus aliquam nemo
-                            unde fugiat ratione vel commodi, odio voluptates?
-                            Quia animi corporis quos laborum necessitatibus vel
-                            voluptates minus hic maiores omnis non ea nam
-                            excepturi fugit autem in illo quasi asperiores,
-                            vero, aliquid illum at unde dolorem ab. Ipsam
-                            aliquid maxime quibusdam reiciendis, iste placeat
-                            sunt ad labore adipisci mollitia fugiat saepe
-                            pariatur!
+                            "IG Tech Team" at NIT Warangal is the epicenter of
+                            technological innovation. We unite tech enthusiasts,
+                            fostering innovation through projects, hackathons,
+                            and workshops. Embrace cutting-edge tech,
+                            collaborate with peers, and embark on an inspiring
+                            journey of discovery and creation in the digital
+                            age.
                           </p>
                           <Row
                             style={{
@@ -266,6 +301,24 @@ const Teams = () => {
                             }}
                           >
                             {prTeamMembers.map((members, index) => {
+                              return <MemberCard key={index} props={members} />;
+                            })}
+                          </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="third-fifth">
+                          <p className="animate__animated animate__zoomIn">
+                            Our Outreach Team builds community ties, engages
+                            stakeholders, and amplifies our club's impact
+                            through strategic partnerships and effective
+                            communication.
+                          </p>
+                          <Row
+                            style={{
+                              display: "flex",
+                              justifyContent: "center",
+                            }}
+                          >
+                            {outreachTeam.map((members, index) => {
                               return <MemberCard key={index} props={members} />;
                             })}
                           </Row>

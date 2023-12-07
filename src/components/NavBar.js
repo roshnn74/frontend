@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import logo from '../assets/img/logo.png';
+import logo from '../assets/img/logo.jpeg';
 
 
 function NavBar() {
@@ -32,7 +32,7 @@ function NavBar() {
       if(!active){
         active.classList.remove("nav-active")
       }
-      // active?.classList.remove("nav-active");
+      active?.classList.remove("nav-active");
       let currentLink ;
       if(currentPath[1] === "") {
         currentLink = document.getElementById("home");
@@ -52,7 +52,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/">
           <Link to="/" onClick={handleOnClick}>
-            <img src={logo} alt="Logo" />
+            <img style={{height:"50px",width:"60px"}} src={logo} alt="Logo" />
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -60,13 +60,13 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto align-items-center">
-            <Nav.Link href="/" className="navbar-link nav-active" id="home">Home</Nav.Link>
-            <Nav.Link href="/achievements" className="navbar-link" id="achievements">Achievements</Nav.Link>
-            <Nav.Link href="/aboutUs" className="navbar-link" id="aboutUs">About Us</Nav.Link>
-            <Nav.Link href="/community" className="navbar-link" id="community">Community</Nav.Link>
-            <Nav.Link href="/formsAndGuidelines" className="navbar-link" id="formsAndGuidelines">Forms & Guidelines</Nav.Link>
-            <Nav.Link href="/alumni" className="navbar-link" id="alumni">Alumni</Nav.Link>
-            <Nav.Link href="/contactUs" className="navbar-link" id="contactUs">Contact Us</Nav.Link>
+            <Nav.Link href="/" className="navbar-link nav-active" style={{fontSize:"1.05rem"}} id="home">Home</Nav.Link>
+            <Nav.Link href="/achievements" className="navbar-link" style={{fontSize:"1.05rem"}} id="achievements">Achievements</Nav.Link>
+            <Nav.Link href="/aboutUs" className="navbar-link" style={{fontSize:"1.05rem"}} id="aboutUs">About Us</Nav.Link>
+            <Nav.Link href="/community" className="navbar-link" style={{fontSize:"1.05rem"}} id="community">Community</Nav.Link>
+            <Nav.Link href="/formsAndGuidelines" className="navbar-link" style={{fontSize:"1.05rem"}} id="formsAndGuidelines">Forms & Guidelines</Nav.Link>
+            <Nav.Link href="/alumni" className="navbar-link" style={{fontSize:"1.05rem"}} id="alumni">Alumni</Nav.Link>
+            <Nav.Link href="/contactUs" className="navbar-link" style={{fontSize:"1.05rem"}} id="contactUs">Contact Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

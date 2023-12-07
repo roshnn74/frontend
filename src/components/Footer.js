@@ -6,15 +6,15 @@ const Footer = () => {
   return (
     <footer className="footer">
       <Container>
-        <Row className="align-items-center">
+        <div style={{display:"flex",alignItems:"center",justifyContent:"space-evenly",flexWrap:"wrap"}}>
           <Col size={12} sm={4}>
-            <img src={logo} alt="Logo" />
+            <img style={{height:"180px",width:"250px"}} src={logo} alt="Logo" />
           </Col>
           <Col size={12} sm={4}>
             <span>ADDRESS</span>
             <p>CII HOD, National Institute of Technology Campus, Hanamkonda, Telangana 506004</p>
           </Col>
-          <Col size={12} sm={4}>
+          <Col size={12} sm={2}>
           <span>CONTACT</span>
             <p>+91 70321 60133</p>
             <p>+91 93955 33228</p>
@@ -22,7 +22,7 @@ const Footer = () => {
             <br/>
             <a href='mailto:ig-nitw@student.nitw.ac.in'>ig-nitw@student.nitw.ac.in</a>
           </Col>
-        </Row>
+        </div>
       </Container>
     </footer>
   )

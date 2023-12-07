@@ -5,19 +5,18 @@ import { InView } from 'react-intersection-observer';
 
 const Counter = () => {
   return (
-    <Container>
+    <Container style={{marginTop:"50px",marginBottom:"50px"}}>
       <InView threshold={0.5}>
       {({ inView, ref, entry }) => (
-      <div ref={ref}>
-      <Row className="align-items-center">
-        <Col size={12} sm={3}></Col>
-        <Col className="counter-container" size={12} sm={8}>
+      <div ref={ref} style={{display:"flex",justifyContent:"center"}}>
+      <Row  className="align-items-center">
+        <Col className="counter-container" >
           Startups Incubated:&nbsp;
           {(inView) && 
             <CountUp
               
               start={0}
-              end={800}
+              end={16}
               duration={5}
             />}
         </Col>

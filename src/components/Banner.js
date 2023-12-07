@@ -11,7 +11,7 @@ const Banner = () => {
     const toRotate = ["Ideate", "Innovate", "Incubate"]; 
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const period = 300;
+    const period = 700;
 
     useEffect(() => {
       let ticker = setInterval(() => {
@@ -29,7 +29,7 @@ const Banner = () => {
         setText(updatedText);
 
         if(isDeleting) {
-            setDelta(prevDelta => prevDelta /2);
+            setDelta(prevDelta => prevDelta/1.5);
         }
 
         if(!isDeleting && updatedText === fullText) {
@@ -38,7 +38,7 @@ const Banner = () => {
         } else if (isDeleting && updatedText === '') {
             setIsDeleting(false);
             setLoopNum(loopNum + 1);
-            setDelta(200);
+            setDelta(300);
         }
 
     }

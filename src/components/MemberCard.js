@@ -8,7 +8,7 @@ const MemberCard = (props) => {
   const linkedin=props.props.linkedin
   const email="mailto:"+props.props.email
   return (
-      <div className="proj-imgbx animate__animated animate__zoomInUp animate__delay-1s" style={{width:"350px"}} >
+      <div className="proj-imgbx animate__animated animate__zoomInUp animate__delay-1s" style={{width:"300px"}} >
         <img src={props.props.imgUrl} style={{ height: "350px",width:"350px" }} alt="" />
         <div className="proj-txtx">
           <h4>{props.props.title}</h4>

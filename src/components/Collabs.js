@@ -22,7 +22,7 @@ import Img15 from "../assets/img/ti.png";
 import Img16 from "../assets/img/yellowai.png";
 
 const Photo = styled.img`
-  width: ${(props) => props.scale * 400}px;
+  width: ${(props) => props.scale * 350}px;
   height: ${(props) => props.scale * 200}px;
   border-radius: 4px;
   box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.12);

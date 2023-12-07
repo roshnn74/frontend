@@ -17,12 +17,16 @@ import narasimharaju from "../assets/img/prof/narasimhara.jpg";
 import muralidar from "../assets/img/prof/muralidhar.jpg";
 import maheswaram from "../assets/img/prof/satish.jpg";
 
+import roshan from "../assets/img/stud/roshan.jpg";
+import rithik from "../assets/img/stud/rithik.jpg";
+import adarsh from "../assets/img/stud/adarsh.jpg";
+
 export const genManagers = [
   {
     title: "Keerthi",
     description: "General Manager",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=1JO3N3m3RZmc9IVOHOzwIk0uHbaMrDKRI",
+      "https://user-images.githubusercontent.com/125126987/285405301-556ad3d0-fc5d-4b3d-90f5-29f51d8ce266.jpg",
     email: "mv932016@student.nitw.ac.in",
     linkedin: "https://www.linkedin.com/in/keerthi-m-71b4a019b/",
   },
@@ -30,85 +34,120 @@ export const genManagers = [
     title: "Muralidhar Vedantam",
     description: "General Manager",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=1q7fAXdcc-dlZKPX0o6iMoSHDbdcmH9WJ",
+      "https://user-images.githubusercontent.com/125126987/285408953-518eeaed-e7bf-431b-a200-ca571b0af507.jpg",
     email: "vv862013@student.nitw.ac.in",
     linkedin: "https://www.linkedin.com/in/muralidhar-vedantam-576a36129",
   },
 ];
 
-export const designTeamMembers = [
+export const outreachTeam=[
   {
-    title: "Tanu Priya",
-    description: "Member",
+    title: "Pranav Palepu",
+    description: "Team Lead",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=16TjNu-biDhngYBHcbimplJvAX8z1OOl9",
-    email: "tp21csb0a58@student.nitw.ac.in",
-    linkedin: "https://www.linkedin.com/in/tanu-priya-a70752251",
+      "https://user-images.githubusercontent.com/125126987/285527305-5e0af225-6610-48d4-ac6f-8d35f1ece774.png",
+    email: "pn922027@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/vamsi-pranav-palepu/",
   },
   {
-    title: "Ashwin S Luke",
+    title: "Linesh Malkam",
     description: "Member",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=1K3I4GhijG60-tRo30geDiNkdJ4v1KGd5",
+      "https://user-images.githubusercontent.com/125126987/285527534-e769639f-0d2c-479d-9887-f6ef7ed80871.jpeg",
+    email: "lk21csb0a35@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/linesh-malkam-ba613b133/",
+  },
+  {
+    title: "Akshat Rai Laddha",
+    description: "Member",
+    imgUrl:
+      "https://user-images.githubusercontent.com/125126987/285527711-2a117dab-e65b-45eb-9203-cff2b2de5ace.jpg",
+    email: "ar832035@student.nitw.ac.in",
+    linkedin: "",
+  },
+]
+
+export const designTeamMembers = [
+  {
+    title: "Ashwin S Luke",
+    description: "Team Lead",
+    imgUrl:
+      "https://user-images.githubusercontent.com/125126987/285408234-ce0fdd54-a0aa-46dd-9985-2a109cae96ca.jpg",
     email: "as812074@student.nitw.ac.in",
     linkedin: "In.linkedin.com/in/ashwinsluke",
   },
   {
-    title: "P.Deva Kumar",
-    description: "Member",
+    title: "Maharshi Dixit",
+    description: "Team Lead",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=1PsLxTj7ooKOlr5X-hyGthh2EkXWugGqY",
-    email: "devdyanmo7@gmail.com",
-    linkedin: "https://www.linkedin.com/in/deva-kumar-peta-440b2a282",
+      "https://user-images.githubusercontent.com/125126987/285526097-dd1b3f3d-d2b6-4995-9d61-903f3ca90922.jpg",
+    email: "md832001@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/maharshi-dixit",
   },
   {
-    title: "Mansvi punekar",
+    title: "Thanish nasir ahammed",
     description: "Member",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=1H_g6QDPLymCJ2sDm-Px8I-hx0HuVs1kG",
-    email: "pm22chb0b50@student.nitw.ac.in",
-    linkedin: "https://www.linkedin.com/in/mansvi-punekar-003b53283/",
+      "https://user-images.githubusercontent.com/125126987/285526245-8986e2e0-f587-4302-96de-f5e846c29946.jpg",
+    email: "tn832003@student.nitw.ac.in",
+    linkedin: "http://linkedin.com/tna3",
+  },
+  {
+    title: "Tanu Priya",
+    description: "Member",
+    imgUrl:
+      "https://user-images.githubusercontent.com/125126987/285401636-9dc6d639-fb8c-4536-8080-9a3c3a6738d8.jpg",
+    email: "tp21csb0a58@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/tanu-priya-a70752251",
   },
   {
     title: "LEONARD PANGING",
     description: "Member",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=1silN5QfeF86M23SIBYIC7cPt3_w-ss_4",
+      "https://user-images.githubusercontent.com/125126987/285525909-e8a98fcc-1ba5-4b2f-8fa6-4a42c68d479e.jpeg",
     email: "lp21eeb0b36@student.nitw.ac.in",
     linkedin: "https://www.linkedin.com/in/leonard-panging-a372b2229/",
   },
   {
-    title: "Maharshi Dixit",
+    title: "Mansvi punekar",
     description: "Member",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=13VfKxTpP_mCIdDo9BFFXb2lxWWjFt-ny",
-    email: "md832001@student.nitw.ac.in",
-    linkedin: "https://www.linkedin.com/in/maharshi-dixit",
+      "https://user-images.githubusercontent.com/125126987/285525017-9c553e39-208f-4a2f-9cb9-1598b03c922d.jpg",
+    email: "pm22chb0b50@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/mansvi-punekar-003b53283/",
+  },
+  {
+    title: "P.Deva Kumar",
+    description: "Member",
+    imgUrl:
+      "https://user-images.githubusercontent.com/125126987/285524684-73b38cc8-098c-4d7c-ac26-9a2f54abfc4b.jpeg",
+    email: "devdyanmo7@gmail.com",
+    linkedin: "https://www.linkedin.com/in/deva-kumar-peta-440b2a282",
   },
 ];
 
 export const prTeamMembers = [
   {
-    title: "Kasshish Mehta",
-    description: "Member",
-    imgUrl:
-      "https://drive.google.com/thumbnail?id=12q_LmxnFIvhWGQM-SWFSoYSOCms12XTz",
-    email: "kd842001@student.nitw.ac.in",
-    linkedin: "https://www.linkedin.com/in/kasshish-mehta-713937224",
-  },
-  {
     title: "Laxmi Priya Paila",
-    description: "Member",
+    description: "Team Lead",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=1CU5U8xD0It4QJpbyqu_qtqZOxxXvIpcc",
+      "https://user-images.githubusercontent.com/125126987/285402470-5b050d54-04c2-4b30-87c5-fd1eac3c8fce.jpg",
     email: "pl832049@student.nitw.ac.in",
     linkedin: "https://www.linkedin.com/in/laxmi-priya-paila-879964213",
   },
   {
+    title: "Kasshish Mehta",
+    description: "Member",
+    imgUrl:
+      "https://user-images.githubusercontent.com/125126987/285401200-ba186b58-3f96-4c2a-bf47-ed00c6a5a851.jpg",
+    email: "kd842001@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/kasshish-mehta-713937224",
+  },  
+  {
     title: "Yasir parvez",
     description: "Member",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=1PX29-YQ1XvaQQd-geaPguovWG7AotJFN",
+      "https://user-images.githubusercontent.com/125126987/285410420-7f979010-641c-4fb1-ab4f-160ad63e5bab.jpg",
     email: "yp21chb0a58@student.nitw.ac.in",
     linkedin: "https://www.linkedin.com/in/yasir-parvez-586a04222",
   },
@@ -116,7 +155,7 @@ export const prTeamMembers = [
     title: "Ashita goyal",
     description: "Member",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=1uWKiJLp_uxV1oQrtx2TAMgcXZNvIpGqZ",
+      "https://user-images.githubusercontent.com/125126987/285410611-4993d742-0647-4132-851f-a9589547166f.jpg",
     email: "ag22csb0f26@student.nitw.ac.in",
     linkedin: "",
   },
@@ -124,58 +163,50 @@ export const prTeamMembers = [
 
 export const eccTeamMembers = [
   {
+    title: "Rallapalle Kumar Chowdary",
+    description: "Team Lead",
+    imgUrl:
+      "https://user-images.githubusercontent.com/125126987/285407994-64067261-1c4c-4965-b762-4a66df5d416f.jpg",
+    email: "rk862007@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/kumar-chowdary-2a58794c/",
+  },
+  {
+    title: "Yagna Satwik",
+    description: "Team Lead",
+    imgUrl:
+      "https://user-images.githubusercontent.com/125126987/285409275-6c22ab37-4c38-4345-afb6-fc224d0c8e8d.jpeg",
+    email: "ys972073@student.nitw.ac.in",
+    linkedin: "linkedin.com/in/yagna-satwik-59b31b214",
+  },
+  {
     title: "Marella Venkata Sai Rohith",
     description: "Member",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=1W_eLn_mrj5sylENS_RV73ZY3mMo2Rqvu",
+      "https://user-images.githubusercontent.com/125126987/285402763-fbcdcdd9-bb79-454b-b8bd-05d5e74e6714.jpeg",
     email: "mv21csb0f28@student.nitw.ac.in",
     linkedin: "www.linkedin.com/in/mvs-rohith",
-  },
-  {
-    title: "Mridula Kadambi",
-    description: "Member",
-    imgUrl:
-      "https://drive.google.com/thumbnail?id=1rT0pRvuh6h15EiBd-qJj9FTk7NL0V0xO",
-    email: "km22btb0a19@student.nitw.ac.in",
-    linkedin: "https://www.linkedin.com/in/kadambi-mridula-a9075628a",
   },
   {
     title: "Fardin Shaik",
     description: "Member",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=1ExoAHPM0FKaMet47WTaEX2t6Pvru1-y_",
+      "https://user-images.githubusercontent.com/125126987/285403314-f25d4a2f-a940-4a33-8247-36875b6da9c1.jpeg",
     email: "sf21cye0013@student.nitw.ac.in",
     linkedin: "https://www.linkedin.com/in/shaikfardin",
   },
   {
-    title: "Faizan Najeeb",
+    title: "Kinshuk Yadav",
     description: "Member",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=164MUYoTc3DLmBOmpKqA940SOt6VB2n24",
-    email: "fn22meb0f04@student.nitw.ac.in",
-    linkedin: "https://www.linkedin.com/in/faizan-najeeb-2a7984165/",
-  },
-  {
-    title: "Vaishnavi Gambhir Rao",
-    description: "Member",
-    imgUrl:
-      "https://drive.google.com/thumbnail?id=15xM3oWOUTQLwTq_fBJZSo2G_XKvpeYxP",
-    email: "vg22eeb0f04@student.nitw.ac.in",
-    linkedin: "https://www.linkedin.com/in/vaishnavi-g-08a663288/",
-  },
-  {
-    title: "Laasyasree kumili",
-    description: "Member",
-    imgUrl:
-      "https://drive.google.com/thumbnail?id=1TVWfxsn3XkRMIKEUamLQ25Z_N0cbeDwH",
-    email: "lk22ecb0f33@student.nitw.ac.in",
-    linkedin: "https://www.linkedin.com/in/laasyasree-kumili-626783287",
+      "https://user-images.githubusercontent.com/125126987/285409601-f4c6d99f-af95-4eec-bb6f-ddeea89d636f.jpg",
+    email: "ky21ecb0b26@student.nitw.ac.in",
+    linkedin: "www.linkedin.com/in/kinshuk-yadav",
   },
   {
     title: "B.Tarun Goud",
     description: "Member",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=1pNQgfu5N2xz7lTOUg84UnhE17XqaP9Wr",
+      "https://user-images.githubusercontent.com/125126987/285407299-2de5a015-da10-4e9c-8cc1-ac36af1fd8d1.jpg",
     email: "bt21meb0a15@student.nitw.ac.in",
     linkedin: "https://www.linkedin.com/in/b-tarun-29b384229",
   },
@@ -183,74 +214,58 @@ export const eccTeamMembers = [
     title: "Devavrata Patel",
     description: "Member",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=127jD-amH6aAKFftGdqKwp3Cm4-VMdrmQ",
+      "https://user-images.githubusercontent.com/125126987/285407623-d6fd079c-c6a2-4801-aefe-e06fa51e1f0c.jpg",
     email: "pd21btb0a29@student.nitw.ac.in",
     linkedin: "https://www.linkedin.com/in/devavratapatel",
-  },
-  {
-    title: "Rallapalle Kumar Chowdary",
-    description: "Member",
-    imgUrl:
-      "https://drive.google.com/thumbnail?id=12sNT0blhMwwMdo5YcpDqXAtT2xZoOsLm",
-    email: "rk862007@student.nitw.ac.in",
-    linkedin: "https://www.linkedin.com/in/kumar-chowdary-2a58794c/",
-  },
-  {
-    title: "Yagna Satwik",
-    description: "Member",
-    imgUrl:
-      "https://drive.google.com/thumbnail?id=14HHdjuEwdAII4_N7wOHvB-an2jOH83T7",
-    email: "ys972073@student.nitw.ac.in",
-    linkedin: "linkedin.com/in/yagna-satwik-59b31b214",
-  },
-  {
-    title: "Kinshuk Yadav",
-    description: "Member",
-    imgUrl:
-      "https://drive.google.com/thumbnail?id=1MHpX-9JRyZeZNDBwcsspF5dyx121KENG",
-    email: "ky21ecb0b26@student.nitw.ac.in",
-    linkedin: "www.linkedin.com/in/kinshuk-yadav",
   },
   {
     title: "Shreyas Chirasseril Sivan",
     description: "Member",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=1YwHhrL-3lHYv1-lQICnFfovlVoswWJX9",
+      "https://user-images.githubusercontent.com/125126987/285409856-1a4da416-e2fc-4cf0-a1a6-42c0c42dc7d0.jpg",
     email: "sc21csb0f32@student.nitw.ac.in",
     linkedin: "www.linkedin.com/in/shreyas-sivan-b0522a232",
+  },
+  {
+    title: "Mridula Kadambi",
+    description: "Member",
+    imgUrl:
+      "https://user-images.githubusercontent.com/125126987/285402996-cce3f79a-6dfd-43c9-a6c1-d1190f0e4274.jpg",
+    email: "km22btb0a19@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/kadambi-mridula-a9075628a",
+  },
+  {
+    title: "Faizan Najeeb",
+    description: "Member",
+    imgUrl:
+      "https://user-images.githubusercontent.com/125126987/285404698-cddf3b26-4f26-4912-af9f-fe7388be49a2.jpg",
+    email: "fn22meb0f04@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/faizan-najeeb-2a7984165/",
+  },
+  {
+    title: "Vaishnavi Gambhir Rao",
+    description: "Member",
+    imgUrl:
+      "https://user-images.githubusercontent.com/125126987/285405821-1b838deb-aaf1-4c58-8d8c-ed461e679a43.jpg",
+    email: "vg22eeb0f04@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/vaishnavi-g-08a663288/",
+  },
+  {
+    title: "Laasyasree kumili",
+    description: "Member",
+    imgUrl:
+      "https://user-images.githubusercontent.com/125126987/285406880-ff3d5a4e-7c6d-4245-a5d3-dc83b98e4768.jpg",
+    email: "lk22ecb0f33@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/laasyasree-kumili-626783287",
   },
 ];
 
 export const sfTeamMembers = [
   {
-    title: "Rushikesh Gupte",
-    description: "Member",
-    imgUrl:
-      "https://drive.google.com/thumbnail?id=1BWchELB7MlGIcTEaE8ngS0CzbWfAxVGJ",
-    email: "gr21eeb0b22@student.nitw.ac.in",
-    linkedin: "https://www.linkedin.com/in/rushikesh-gupte-8a986a192/",
-  },
-  {
-    title: "Lakshya Tiwari",
-    description: "Member",
-    imgUrl:
-      "https://drive.google.com/thumbnail?id=1Oge76l3b8YHNGvxefUKPucz3gdab8gea",
-    email: "lakshya.tiwari1201@gmail.com",
-    linkedin: "https://www.linkedin.com/in/lakshya-tiwari/",
-  },
-  {
-    title: "Kartik Gupta",
-    description: "Member",
-    imgUrl:
-      "https://drive.google.com/thumbnail?id=1QTYlW6aDrIB4_dFydSsF28fOgVuAnLtW",
-    email: "kg22meb0a07@student.nitw.ac.in",
-    linkedin: "https://www.linkedin.com/in/kartik-gupta-50061b216",
-  },
-  {
     title: "Lakshya Jalan",
     description: "Member",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=1FrAqS0j2sbaVhJfU8xGQm9Le0hT6dIdz",
+      "https://user-images.githubusercontent.com/125126987/285525150-f9f5bee7-09a8-4e3d-99ed-3b0905256968.jpg",
     email: "vlj812071@student.nitw.ac.in",
     linkedin: "https://www.linkedin.com/in/lakshya-jalan-5063b3206",
   },
@@ -258,68 +273,77 @@ export const sfTeamMembers = [
     title: "Vaidehi Kailas",
     description: "Member",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=1r9OwxR5re9kMt7CRcU34deIodHpWIFux",
+      "https://user-images.githubusercontent.com/125126987/285525639-a60388bc-cbeb-4efa-b828-b57c888b1955.jpeg",
     email: "vk21csb0f18@student.nitw.ac.in",
     linkedin: "https://www.linkedin.com/in/vaidehi-kailas-b58027238/",
+  },
+  {
+    title: "Lakshya Tiwari",
+    description: "Member",
+    imgUrl:
+      "https://user-images.githubusercontent.com/125126987/285402233-121227e6-4cb5-4097-87de-77d79adb545e.jpeg",
+    email: "lakshya.tiwari1201@gmail.com",
+    linkedin: "https://www.linkedin.com/in/lakshya-tiwari/",
+  },
+  {
+    title: "Rushikesh Gupte",
+    description: "Member",
+    imgUrl:
+      "https://user-images.githubusercontent.com/125126987/285401952-128c4178-b494-4c7c-b3b4-24e28953588e.jpeg",
+    email: "gr21eeb0b22@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/rushikesh-gupte-8a986a192/",
+  },
+  {
+    title: "Kartik Gupta",
+    description: "Member",
+    imgUrl:
+      "https://user-images.githubusercontent.com/125126987/285408635-45e50171-8463-460f-bee4-35facba1d477.jpg",
+    email: "kg22meb0a07@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/kartik-gupta-50061b216",
   },
 ];
 
 export const techTeamMembers = [
   {
     title: "Roshan Kuriakose",
-    description: "Papi",
-    imgUrl: Img1,
-    email: "gr21eeb0b22@student.nitw.ac.in",
-    linkedin: "https://www.linkedin.com/in/rushikesh-gupte-8a986a192/",
+    description: "Team Lead",
+    imgUrl: roshan,
+    email: "roshnn74@gmail.com",
+    linkedin: "https://www.linkedin.com/in/roshan-kuriakose-mohan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
+    title: "Adarsh Rao",
+    description: "Team Lead",
+    imgUrl: adarsh,
+    email: "adrao18020@gmail.com",
+    linkedin: "https://www.linkedin.com/in/sa4drao",
   },
   {
     title: "Rithik Marudappa",
-    description: "Brain damage",
-    imgUrl: Img2,
-    email: "gr21eeb0b22@student.nitw.ac.in",
-    linkedin: "https://www.linkedin.com/in/rushikesh-gupte-8a986a192/",
+    description: "Member",
+    imgUrl: rithik,
+    email: "mrithik2024@gmail.com",
+    linkedin: "https://www.linkedin.com/in/rithik-marudappa-1a037022b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     title: "Manav Bhadoria",
     description: "Member",
-    imgUrl: Img2,
-    email: "gr21eeb0b22@student.nitw.ac.in",
-    linkedin: "https://www.linkedin.com/in/rushikesh-gupte-8a986a192/",
-  },
-  {
-    title: "Adarsh Rao",
-    description: "Member",
-    imgUrl: Img2,
-    email: "gr21eeb0b22@student.nitw.ac.in",
-    linkedin: "https://www.linkedin.com/in/rushikesh-gupte-8a986a192/",
-  },
-  {
-    title: "Vamsi Pranav Palepu",
-    description: "Member",
-    imgUrl: Img2,
-    email: "gr21eeb0b22@student.nitw.ac.in",
-    linkedin: "https://www.linkedin.com/in/rushikesh-gupte-8a986a192/",
+    imgUrl: "https://nitw.ac.in/cii/static/media/manav.922c5bdd.jpg",
+    email: "mb812073@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/manav-bhadoria-0aaab4113",
   },
   {
     title: "Ankan Sen",
     description: "Member",
-    imgUrl: Img2,
-    email: "gr21eeb0b22@student.nitw.ac.in",
-    linkedin: "https://www.linkedin.com/in/rushikesh-gupte-8a986a192/",
-  },
-  {
-    title: "Mubashir Ahmed Farooqui",
-    description: "Member",
-    imgUrl:
-      "https://drive.google.com/thumbnail?id=1xcjjW-BMlB_7I_n3v_PbScubpxyCHwaT",
-    email: "ma22ecb0f09@student.nitw.ac.in",
-    linkedin: "https://www.linkedin.com/in/mubashir-farooqui-3b8513253/",
+    imgUrl: "https://nitw.ac.in/api/static/files/Ankan_21EEB0A05_2023-8-13-10-37-55.jpg",
+    email: "as21eeb0a05@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/ankan-sen-6814a41aa/",
   },
   {
     title: "J V Shiva Rama Krishna",
     description: "Member",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=1zyhQxN697wL8naf80r-S0pENiY5C478e",
+      "https://user-images.githubusercontent.com/125126987/285524378-abadf64b-14d9-4954-b5b7-40517f41f7e1.jpg",
     email: "jv21meb0b25@student.nitw.ac.in",
     linkedin: "https://www.linkedin.com/in/shiva-rama-krishna-jakkepalli",
   },
@@ -327,15 +351,31 @@ export const techTeamMembers = [
     title: "Samrat Gupta",
     description: "Member",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=1rBliFyyncfGHn47xauCVK-ghDA30mEA6",
+      "https://user-images.githubusercontent.com/125126987/285524536-8a324074-2977-4ff7-8a0c-63faf6d9621a.png",
     email: "sg21csb0f07@student.nitw.ac.in",
     linkedin: "https://www.linkedin.com/in/samrat-gupta-1b1227232/",
+  },
+  {
+    title: "Somil Maldhani",
+    description: "Member",
+    imgUrl:
+      "https://user-images.githubusercontent.com/125126987/285525761-fc1e1ef7-5dc0-48b5-ba68-9734ea38522e.jpeg",
+    email: "sm21ecb0a72@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/somil-maldhani-aa24441b8",
+  },
+  {
+    title: "Mubashir Ahmed Farooqui",
+    description: "Member",
+    imgUrl:
+      "https://user-images.githubusercontent.com/125126987/285524230-14676616-d6da-40db-9d6b-84ab03f6a6e5.jpeg",
+    email: "ma22ecb0f09@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/mubashir-farooqui-3b8513253/",
   },
   {
     title: "Jitesh Dhakshinamoorthy",
     description: "Member",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=1HvorSKESHaJ5uX57Kat2DAQtBhNHwiuv",
+      "https://user-images.githubusercontent.com/125126987/285524874-21a0e4ec-a7d7-4d80-b8ea-7643cff2e97c.jpg",
     email: "jd22ecb0f10@student.nitw.ac.in",
     linkedin: "https://www.linkedin.com/in/jitesh-d-7b454124b",
   },
@@ -343,17 +383,9 @@ export const techTeamMembers = [
     title: "Ishtiyaque Alam",
     description: "Member",
     imgUrl:
-      "https://drive.google.com/thumbnail?id=1YfY47-PYl21Io3WEJNx950MUaYvTPYxn",
+      "https://user-images.githubusercontent.com/125126987/285525328-356d82ab-b3c6-4a46-91f6-2511b76c13cd.png",
     email: "mi22ecb0c28@student.nitw.ac.in",
     linkedin: "https://www.linkedin.com/in/ishtiayque-alam-95a180275",
-  },
-  {
-    title: "Somil Maldhani",
-    description: "Member",
-    imgUrl:
-      "https://drive.google.com/thumbnail?id=1HXXzbRqzMgYS0Z_eoXA22W8JfJg5S8PJ",
-    email: "sm21ecb0a72@student.nitw.ac.in",
-    linkedin: "https://www.linkedin.com/in/somil-maldhani-aa24441b8",
   },
 ];
 
