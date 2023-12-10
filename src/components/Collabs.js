@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import times from "lodash/times";
-import Marquee from "react-marquee-slider";
+import Marquee from "react-fast-marquee";
 import { nanoid } from "nanoid";
 
 import Img1 from "../assets/img/almabase.png";
@@ -65,7 +65,7 @@ const Collabs = () => {
             <div style={{ height: scale * 60 }} />
 
             <div style={{ height: scale * 200 }}>
-                <Marquee key={key} velocity={150}>
+                <Marquee key={key} speed={150}>
                     {times(8, Number).map((id) => (
                         <Photo src={photos[id]} alt="" key={`marquee-${id}`} scale={scale} />
                     ))}
@@ -75,7 +75,7 @@ const Collabs = () => {
             <div style={{ height: scale * 60 }} />
 
             <div style={{ height: scale * 200 }}>
-                <Marquee key={key} velocity={140}>
+                <Marquee key={key} speed={140}>
                     {times(8, Number).map((id) => (
                         <Photo
                             src={photos[id + 8]}
