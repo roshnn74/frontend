@@ -6,7 +6,7 @@ import { nanoid } from "nanoid";
 
 import Img1 from "../assets/img/almabase.png";
 import Img2 from "../assets/img/aufenbach.jpeg";
-import Img3 from "../assets/img/cusmat.png";
+import Img3 from "../assets/img/cusmat.jpeg";
 import Img4 from "../assets/img/epickbikes.png";
 import Img5 from "../assets/img/facebook.png";
 import Img6 from "../assets/img/flowrhex.png";
