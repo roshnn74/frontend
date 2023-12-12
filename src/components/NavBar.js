@@ -25,23 +25,24 @@ function NavBar() {
       return () => window.removeEventListener('scroll', onScroll);
     }, [])
 
-    useEffect(() => {
-      const currentPath = location.pathname.split("/");
-      console.log(currentPath);
-      const active = document.querySelector(".nav-active");
-      if(!active){
-        active.classList.remove("nav-active")
-      }
-      active?.classList.remove("nav-active");
-      let currentLink ;
-      if(currentPath[1] === "") {
-        currentLink = document.getElementById("home");
-      }
-      else {
-        currentLink = document.getElementById(currentPath[1]);
-      }
-      currentLink.classList.add("nav-active");
-    },[location])
+    // useEffect(() => {
+    //   const currentPath = location.pathname.split("/");
+    //   console.log(currentPath);
+    //   const active = document.querySelector(".nav-active");
+    //   if(!active){
+    //     active.classList.remove("nav-active")
+    //   }
+    //   active.classList.remove("nav-active");
+    //   let currentLink ;
+    //   if(currentPath[1] === "") {
+    //     currentLink = document.getElementById("home");
+    //   }
+    //   else {
+    //     currentLink = document.getElementById(currentPath[1]);
+    //   }
+    //   console.log(currentLink.classList)
+    //   currentLink.classList.add("nav-active");
+    // },[location])
     
     const handleOnClick = () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -60,7 +61,7 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto align-items-center">
-            <Nav.Link href="/" className="navbar-link nav-active" style={{fontSize:"1.05rem"}} id="home">Home</Nav.Link>
+            <Nav.Link href="/" className="navbar-link" style={{fontSize:"1.05rem"}} id="home">Home</Nav.Link>
             <Nav.Link href="/achievements" className="navbar-link" style={{fontSize:"1.05rem"}} id="achievements">Achievements</Nav.Link>
             <Nav.Link href="/aboutUs" className="navbar-link" style={{fontSize:"1.05rem"}} id="aboutUs">About Us</Nav.Link>
             <Nav.Link href="/community" className="navbar-link" style={{fontSize:"1.05rem"}} id="community">Community</Nav.Link>
