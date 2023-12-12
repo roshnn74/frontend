@@ -61,13 +61,13 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto align-items-center">
-            <Nav.Link href="/" className="navbar-link" style={{fontSize:"1.05rem"}} id="home">Home</Nav.Link>
-            <Nav.Link href="/achievements" className="navbar-link" style={{fontSize:"1.05rem"}} id="achievements">Achievements</Nav.Link>
-            <Nav.Link href="/aboutUs" className="navbar-link" style={{fontSize:"1.05rem"}} id="aboutUs">About Us</Nav.Link>
-            <Nav.Link href="/community" className="navbar-link" style={{fontSize:"1.05rem"}} id="community">Community</Nav.Link>
-            <Nav.Link href="/formsAndGuidelines" className="navbar-link" style={{fontSize:"1.05rem"}} id="formsAndGuidelines">Forms & Guidelines</Nav.Link>
-            <Nav.Link href="/alumni" className="navbar-link" style={{fontSize:"1.05rem"}} id="alumni">Alumni</Nav.Link>
-            <Nav.Link href="/contactUs" className="navbar-link" style={{fontSize:"1.05rem"}} id="contactUs">Contact Us</Nav.Link>
+            <Nav.Link href="/cii/" className="navbar-link" style={{fontSize:"1.05rem"}} id="home">Home</Nav.Link>
+            <Nav.Link href="/cii/achievements" className="navbar-link" style={{fontSize:"1.05rem"}} id="achievements">Achievements</Nav.Link>
+            <Nav.Link href="/cii/aboutUs" className="navbar-link" style={{fontSize:"1.05rem"}} id="aboutUs">About Us</Nav.Link>
+            <Nav.Link href="/cii/community" className="navbar-link" style={{fontSize:"1.05rem"}} id="community">Community</Nav.Link>
+            <Nav.Link href="/cii/formsAndGuidelines" className="navbar-link" style={{fontSize:"1.05rem"}} id="formsAndGuidelines">Forms & Guidelines</Nav.Link>
+            <Nav.Link href="/cii/alumni" className="navbar-link" style={{fontSize:"1.05rem"}} id="alumni">Alumni</Nav.Link>
+            <Nav.Link href="/cii/contactUs" className="navbar-link" style={{fontSize:"1.05rem"}} id="contactUs">Contact Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

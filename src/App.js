@@ -22,15 +22,15 @@ const App = () => {
     <div className="App">
         <NavBar />
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/achievements" element={<Achievements />} />
-            <Route path="/achievements/:id" element={<PrevEvents />} />
-            <Route path="/aboutUs" element={<AboutUs />} />
-            <Route path="/community" element={<Community />} />
-            <Route path="/events" element={<Events />} />
-            <Route path="/alumni" element={<Alumni />} />
-            <Route path="/contactUs" element={<ContactUs />} />
-            <Route path="/formsAndGuidelines" element={<FormsAndGuidelines/>}/>
+            <Route path="/cii/" element={<Home />} />
+            <Route path="/cii/achievements" element={<Achievements />} />
+            <Route path="/cii/achievements/:id" element={<PrevEvents />} />
+            <Route path="/cii/aboutUs" element={<AboutUs />} />
+            <Route path="/cii/community" element={<Community />} />
+            <Route path="/cii/events" element={<Events />} />
+            <Route path="/cii/alumni" element={<Alumni />} />
+            <Route path="/cii/contactUs" element={<ContactUs />} />
+            <Route path="/cii/formsAndGuidelines" element={<FormsAndGuidelines/>}/>
         </Routes>
         <Social />
         <Footer />
