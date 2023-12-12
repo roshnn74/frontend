@@ -42,7 +42,7 @@ const Achievements = () => {
               <div className="tile proj-imgbx" key={index}>
                 <img src={item.imgUrl} alt="" />
                 <div className="proj-txtx">
-                  <Link to={`/achievements/${item.id}`} style={ {textDecoration: 'none' } }>
+                  <Link to={`/cii/achievements/${item.id}`} style={ {textDecoration: 'none' } }>
                     <h4>{item.title}</h4>
                   </Link>
                   <span>{item.date}</span>
